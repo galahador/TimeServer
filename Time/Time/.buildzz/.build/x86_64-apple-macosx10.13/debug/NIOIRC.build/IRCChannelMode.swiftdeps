@@ -1,0 +1,404 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IRCChannelMode"
+provides-nominal:
+- "6NIOIRC14IRCChannelModeV"
+provides-member:
+- ["6NIOIRC14IRCChannelModeV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- "<<"
+- "=="
+- "AssignmentPrecedence"
+- !private "ExtendedGraphemeClusterType"
+- "FloatLiteralType"
+- "IRCChannelMode"
+- "IntegerLiteralType"
+- "OptionSet"
+- "String"
+- !private "StringLiteralType"
+- "UInt16"
+- !private "UnicodeScalarType"
+- !private "~="
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["SJ", "init"]
+- !private ["SJ", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Element"]
+- ["SQ", "IRCChannelMode"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_ArrayLiteralElement"]
+- ["SQ", "_Default_Element"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "banMask"]
+- !private ["SQ", "channelOperator"]
+- ["SQ", "contains"]
+- ["SQ", "formIntersection"]
+- ["SQ", "formSymmetricDifference"]
+- ["SQ", "formUnion"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "insert"]
+- ["SQ", "intersection"]
+- !private ["SQ", "inviteOnly"]
+- ["SQ", "isDisjoint"]
+- ["SQ", "isEmpty"]
+- ["SQ", "isSubset"]
+- ["SQ", "isSuperset"]
+- !private ["SQ", "moderated"]
+- !private ["SQ", "noOutsideClients"]
+- !private ["SQ", "password"]
+- !private ["SQ", "private"]
+- ["SQ", "rawValue"]
+- ["SQ", "remove"]
+- !private ["SQ", "secret"]
+- !private ["SQ", "speakControl"]
+- ["SQ", "subtract"]
+- ["SQ", "subtracting"]
+- ["SQ", "symmetricDifference"]
+- !private ["SQ", "topicOnlyByOperator"]
+- ["SQ", "union"]
+- ["SQ", "update"]
+- !private ["SQ", "userLimit"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "IRCChannelMode"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "banMask"]
+- !private ["s25ExpressibleByArrayLiteralP", "channelOperator"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- !private ["s25ExpressibleByArrayLiteralP", "inviteOnly"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- !private ["s25ExpressibleByArrayLiteralP", "moderated"]
+- !private ["s25ExpressibleByArrayLiteralP", "noOutsideClients"]
+- !private ["s25ExpressibleByArrayLiteralP", "password"]
+- !private ["s25ExpressibleByArrayLiteralP", "private"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "secret"]
+- !private ["s25ExpressibleByArrayLiteralP", "speakControl"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- !private ["s25ExpressibleByArrayLiteralP", "topicOnlyByOperator"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- !private ["s25ExpressibleByArrayLiteralP", "userLimit"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["6NIOIRC14IRCChannelModeV", "ArrayLiteralElement"]
+- ["6NIOIRC14IRCChannelModeV", "Element"]
+- ["6NIOIRC14IRCChannelModeV", "IRCChannelMode"]
+- ["6NIOIRC14IRCChannelModeV", "RawValue"]
+- ["6NIOIRC14IRCChannelModeV", "String"]
+- ["6NIOIRC14IRCChannelModeV", "UInt16"]
+- ["6NIOIRC14IRCChannelModeV", "_Default_ArrayLiteralElement"]
+- ["6NIOIRC14IRCChannelModeV", "_Default_Element"]
+- ["6NIOIRC14IRCChannelModeV", "_Default_RawValue"]
+- ["6NIOIRC14IRCChannelModeV", "banMask"]
+- ["6NIOIRC14IRCChannelModeV", "channelOperator"]
+- ["6NIOIRC14IRCChannelModeV", "contains"]
+- ["6NIOIRC14IRCChannelModeV", "deinit"]
+- ["6NIOIRC14IRCChannelModeV", "formIntersection"]
+- ["6NIOIRC14IRCChannelModeV", "formSymmetricDifference"]
+- ["6NIOIRC14IRCChannelModeV", "formUnion"]
+- ["6NIOIRC14IRCChannelModeV", "init"]
+- ["6NIOIRC14IRCChannelModeV", "insert"]
+- ["6NIOIRC14IRCChannelModeV", "intersection"]
+- ["6NIOIRC14IRCChannelModeV", "inviteOnly"]
+- ["6NIOIRC14IRCChannelModeV", "isDisjoint"]
+- ["6NIOIRC14IRCChannelModeV", "isEmpty"]
+- ["6NIOIRC14IRCChannelModeV", "isSubset"]
+- ["6NIOIRC14IRCChannelModeV", "isSuperset"]
+- ["6NIOIRC14IRCChannelModeV", "maskValue"]
+- ["6NIOIRC14IRCChannelModeV", "moderated"]
+- ["6NIOIRC14IRCChannelModeV", "noOutsideClients"]
+- ["6NIOIRC14IRCChannelModeV", "password"]
+- ["6NIOIRC14IRCChannelModeV", "private"]
+- ["6NIOIRC14IRCChannelModeV", "rawValue"]
+- ["6NIOIRC14IRCChannelModeV", "remove"]
+- ["6NIOIRC14IRCChannelModeV", "secret"]
+- ["6NIOIRC14IRCChannelModeV", "speakControl"]
+- ["6NIOIRC14IRCChannelModeV", "stringValue"]
+- ["6NIOIRC14IRCChannelModeV", "subtract"]
+- ["6NIOIRC14IRCChannelModeV", "subtracting"]
+- ["6NIOIRC14IRCChannelModeV", "symmetricDifference"]
+- ["6NIOIRC14IRCChannelModeV", "topicOnlyByOperator"]
+- ["6NIOIRC14IRCChannelModeV", "union"]
+- ["6NIOIRC14IRCChannelModeV", "update"]
+- ["6NIOIRC14IRCChannelModeV", "userLimit"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "IRCChannelMode"]
+- ["s9OptionSetP", "RawValue"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "_Default_RawValue"]
+- !private ["s9OptionSetP", "banMask"]
+- !private ["s9OptionSetP", "channelOperator"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- !private ["s9OptionSetP", "inviteOnly"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- !private ["s9OptionSetP", "moderated"]
+- !private ["s9OptionSetP", "noOutsideClients"]
+- !private ["s9OptionSetP", "password"]
+- !private ["s9OptionSetP", "private"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- !private ["s9OptionSetP", "secret"]
+- !private ["s9OptionSetP", "speakControl"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- !private ["s9OptionSetP", "topicOnlyByOperator"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- !private ["s9OptionSetP", "userLimit"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Element"]
+- ["SY", "IRCChannelMode"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_ArrayLiteralElement"]
+- ["SY", "_Default_Element"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "banMask"]
+- !private ["SY", "channelOperator"]
+- ["SY", "contains"]
+- ["SY", "formIntersection"]
+- ["SY", "formSymmetricDifference"]
+- ["SY", "formUnion"]
+- ["SY", "init"]
+- ["SY", "insert"]
+- ["SY", "intersection"]
+- !private ["SY", "inviteOnly"]
+- ["SY", "isDisjoint"]
+- ["SY", "isEmpty"]
+- ["SY", "isSubset"]
+- ["SY", "isSuperset"]
+- !private ["SY", "moderated"]
+- !private ["SY", "noOutsideClients"]
+- !private ["SY", "password"]
+- !private ["SY", "private"]
+- ["SY", "rawValue"]
+- ["SY", "remove"]
+- !private ["SY", "secret"]
+- !private ["SY", "speakControl"]
+- ["SY", "subtract"]
+- ["SY", "subtracting"]
+- ["SY", "symmetricDifference"]
+- !private ["SY", "topicOnlyByOperator"]
+- ["SY", "union"]
+- ["SY", "update"]
+- !private ["SY", "userLimit"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "IRCChannelMode"]
+- ["s10SetAlgebraP", "RawValue"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "_Default_RawValue"]
+- !private ["s10SetAlgebraP", "banMask"]
+- !private ["s10SetAlgebraP", "channelOperator"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- !private ["s10SetAlgebraP", "inviteOnly"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- !private ["s10SetAlgebraP", "moderated"]
+- !private ["s10SetAlgebraP", "noOutsideClients"]
+- !private ["s10SetAlgebraP", "password"]
+- !private ["s10SetAlgebraP", "private"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- !private ["s10SetAlgebraP", "secret"]
+- !private ["s10SetAlgebraP", "speakControl"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- !private ["s10SetAlgebraP", "topicOnlyByOperator"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- !private ["s10SetAlgebraP", "userLimit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "SJ"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "6NIOIRC14IRCChannelModeV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s9OptionSetP"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-zlib-support.git--7964553127913951599/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a8e9b3ae61732973ee288c2fc172a2b0"

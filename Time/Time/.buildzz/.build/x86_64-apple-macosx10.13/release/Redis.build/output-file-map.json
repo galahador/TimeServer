@@ -1,0 +1,42 @@
+{
+  "": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/Redis.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/Redis.o",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/master.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisClient.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisClient.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisClient~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisClient.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisClientOptions.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisClientOptions.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisClientOptions~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisClientOptions.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisCommand.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisCommand.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisCommand~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisCommand.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisCommandTarget.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisCommandTarget.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisCommandTarget~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisCommandTarget.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisPrint.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisPrint.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisPrint~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisPrint.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisRetry.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisRetry.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisRetry~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisRetry.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisTypeTransformable.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisTypeTransformable.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisTypeTransformable~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/Redis.build/RedisTypeTransformable.swiftdeps"
+  }
+}

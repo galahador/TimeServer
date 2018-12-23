@@ -1,0 +1,4 @@
+module CNIOHTTPParser {
+    umbrella header "PACKAGE_CHECKOUT_DIR/swift-nio.git-1723641586744478400/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+    export *
+}

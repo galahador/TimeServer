@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+    umbrella header "/Users/tbug/TimeServer/TIme/TIme/.buildzz/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOSHA1/include/CNIOSHA1.h"
+    export *
+}

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/master.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/NIOPriorityQueue/Heap.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/Heap.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/Heap.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/Heap~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/Heap.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/NIOPriorityQueue/PriorityQueue.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/PriorityQueue.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/PriorityQueue.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/PriorityQueue~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOPriorityQueue.build/PriorityQueue.swiftdeps"
+  }
+}

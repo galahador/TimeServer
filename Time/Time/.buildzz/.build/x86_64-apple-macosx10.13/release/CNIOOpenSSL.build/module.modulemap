@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/tbug/TimeServer/TIme/TIme/.buildzz/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/CNIOOpenSSL/include"
+    export *
+}

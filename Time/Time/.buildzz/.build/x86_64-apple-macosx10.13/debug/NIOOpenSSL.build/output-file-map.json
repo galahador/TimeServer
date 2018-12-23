@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/master.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/ByteBufferBIO.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/ByteBufferBIO.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/ByteBufferBIO.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/ByteBufferBIO~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/ByteBufferBIO.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/IdentityVerification.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/IdentityVerification.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/IdentityVerification.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/IdentityVerification~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/IdentityVerification.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLClientHandler.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLClientHandler.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLClientHandler~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLClientHandler.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/OpenSSLHandler.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLHandler.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLHandler.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLHandler~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLHandler.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLServerHandler.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLServerHandler.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLServerHandler~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/OpenSSLServerHandler.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/PosixPort.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/PosixPort.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/PosixPort.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/PosixPort~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/PosixPort.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLCertificate.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLCertificate.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLCertificate.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLCertificate~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLCertificate.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLConnection.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLConnection.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLConnection.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLConnection~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLConnection.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLContext.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLContext.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLContext.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLContext~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLContext.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLErrors.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLErrors.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLErrors.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLErrors~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLErrors.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLInit.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLInit.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLInit.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLInit~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLInit.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLPKCS12Bundle.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPKCS12Bundle.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPKCS12Bundle.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPKCS12Bundle~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPKCS12Bundle.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLPointerTricks.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPointerTricks.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPointerTricks.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPointerTricks~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPointerTricks.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLPrivateKey.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPrivateKey.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPrivateKey.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPrivateKey~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/SSLPrivateKey.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/TLSConfiguration.swift": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/TLSConfiguration.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/TLSConfiguration.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/TLSConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.build/TLSConfiguration.swiftdeps"
+  }
+}

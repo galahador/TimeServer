@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IRCCommandCode"
+provides-nominal:
+- "6NIOIRC14IRCCommandCodeO"
+provides-member:
+- ["6NIOIRC14IRCCommandCodeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "FloatLiteralType"
+- "IRCCommandCode"
+- "Int"
+- "IntegerLiteralType"
+- !private "~="
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- ["6NIOIRC14IRCCommandCodeO", "RawValue"]
+- ["6NIOIRC14IRCCommandCodeO", "_Default_RawValue"]
+- ["6NIOIRC14IRCCommandCodeO", "deinit"]
+- ["6NIOIRC14IRCCommandCodeO", "errorAlreadyRegistered"]
+- ["6NIOIRC14IRCCommandCodeO", "errorBadChannelKey"]
+- ["6NIOIRC14IRCCommandCodeO", "errorBadChannelMask"]
+- ["6NIOIRC14IRCCommandCodeO", "errorBadMask"]
+- ["6NIOIRC14IRCCommandCodeO", "errorBanListFull"]
+- ["6NIOIRC14IRCCommandCodeO", "errorBannedFromChan"]
+- ["6NIOIRC14IRCCommandCodeO", "errorCannotSendToChain"]
+- ["6NIOIRC14IRCCommandCodeO", "errorCantKillServer"]
+- ["6NIOIRC14IRCCommandCodeO", "errorChanOPrivsNeeded"]
+- ["6NIOIRC14IRCCommandCodeO", "errorChannelIsFull"]
+- ["6NIOIRC14IRCCommandCodeO", "errorErrorneusNickname"]
+- ["6NIOIRC14IRCCommandCodeO", "errorFileError"]
+- ["6NIOIRC14IRCCommandCodeO", "errorIllegalChannelName"]
+- ["6NIOIRC14IRCCommandCodeO", "errorInvalidCAPCommand"]
+- ["6NIOIRC14IRCCommandCodeO", "errorInviteOnlyChan"]
+- ["6NIOIRC14IRCCommandCodeO", "errorKeySet"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNeedMoreParams"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNickCollision"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNicknameInUse"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoAdminInfo"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoChannelModels"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoLogin"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoMotD"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoNickNameGiven"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoOperHost"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoOrigin"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoPermForHost"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoProvileges"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoRecipient"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoSuchChannel"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoSuchNick"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoSuchServer"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoSuchService"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoTextToSend"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNoTopLevel"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNotOnChannel"]
+- ["6NIOIRC14IRCCommandCodeO", "errorNotRegistered"]
+- ["6NIOIRC14IRCCommandCodeO", "errorPasswdMismatch"]
+- ["6NIOIRC14IRCCommandCodeO", "errorRestricted"]
+- ["6NIOIRC14IRCCommandCodeO", "errorSummonDisabled"]
+- ["6NIOIRC14IRCCommandCodeO", "errorTooManyChannels"]
+- ["6NIOIRC14IRCCommandCodeO", "errorTooManyTargets"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUModeUnknownFlag"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUnavailResource"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUniqOpPrivIsNeeded"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUnknownCommand"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUnknownMode"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUserNotInChannel"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUserOnChannel"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUsersDisabled"]
+- ["6NIOIRC14IRCCommandCodeO", "errorUsersDontMatch"]
+- ["6NIOIRC14IRCCommandCodeO", "errorWasNoSuchNick"]
+- ["6NIOIRC14IRCCommandCodeO", "errorWildTopLevel"]
+- ["6NIOIRC14IRCCommandCodeO", "errorYouReBannedCreep"]
+- ["6NIOIRC14IRCCommandCodeO", "errorYouWillBeBanned"]
+- ["6NIOIRC14IRCCommandCodeO", "hash"]
+- ["6NIOIRC14IRCCommandCodeO", "hashValue"]
+- ["6NIOIRC14IRCCommandCodeO", "init"]
+- ["6NIOIRC14IRCCommandCodeO", "rawValue"]
+- ["6NIOIRC14IRCCommandCodeO", "replyAdminEMail"]
+- ["6NIOIRC14IRCCommandCodeO", "replyAdminLoc1"]
+- ["6NIOIRC14IRCCommandCodeO", "replyAdminLoc2"]
+- ["6NIOIRC14IRCCommandCodeO", "replyAdminMe"]
+- ["6NIOIRC14IRCCommandCodeO", "replyAway"]
+- ["6NIOIRC14IRCCommandCodeO", "replyBanList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyBounce"]
+- ["6NIOIRC14IRCCommandCodeO", "replyChannelModeIs"]
+- ["6NIOIRC14IRCCommandCodeO", "replyCreated"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfBanList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfExceptList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfInfo"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfInviteList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfLinks"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfMotD"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfNames"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfStats"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfUsers"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfWho"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfWhoIs"]
+- ["6NIOIRC14IRCCommandCodeO", "replyEndOfWhoWas"]
+- ["6NIOIRC14IRCCommandCodeO", "replyExceptList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyISON"]
+- ["6NIOIRC14IRCCommandCodeO", "replyInfo"]
+- ["6NIOIRC14IRCCommandCodeO", "replyInviteList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyInviting"]
+- ["6NIOIRC14IRCCommandCodeO", "replyIsConnectingFrom"]
+- ["6NIOIRC14IRCCommandCodeO", "replyIsLoggedInAs"]
+- ["6NIOIRC14IRCCommandCodeO", "replyLUserChannels"]
+- ["6NIOIRC14IRCCommandCodeO", "replyLUserClient"]
+- ["6NIOIRC14IRCCommandCodeO", "replyLUserMe"]
+- ["6NIOIRC14IRCCommandCodeO", "replyLUserOp"]
+- ["6NIOIRC14IRCCommandCodeO", "replyLUserUnknown"]
+- ["6NIOIRC14IRCCommandCodeO", "replyLinks"]
+- ["6NIOIRC14IRCCommandCodeO", "replyList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyListEnd"]
+- ["6NIOIRC14IRCCommandCodeO", "replyListStart"]
+- ["6NIOIRC14IRCCommandCodeO", "replyMotD"]
+- ["6NIOIRC14IRCCommandCodeO", "replyMotDStart"]
+- ["6NIOIRC14IRCCommandCodeO", "replyMyInfo"]
+- ["6NIOIRC14IRCCommandCodeO", "replyNameReply"]
+- ["6NIOIRC14IRCCommandCodeO", "replyNoTopic"]
+- ["6NIOIRC14IRCCommandCodeO", "replyNoUsers"]
+- ["6NIOIRC14IRCCommandCodeO", "replyNowAway"]
+- ["6NIOIRC14IRCCommandCodeO", "replyRehashing"]
+- ["6NIOIRC14IRCCommandCodeO", "replyServList"]
+- ["6NIOIRC14IRCCommandCodeO", "replyServListEnd"]
+- ["6NIOIRC14IRCCommandCodeO", "replyStatsCommands"]
+- ["6NIOIRC14IRCCommandCodeO", "replyStatsLinkInfo"]
+- ["6NIOIRC14IRCCommandCodeO", "replyStatsOLine"]
+- ["6NIOIRC14IRCCommandCodeO", "replyStatsUptime"]
+- ["6NIOIRC14IRCCommandCodeO", "replySummoning"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTime"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTopic"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceClass"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceConnecting"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceEnd"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceHandshake"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceLog"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceNewType"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceOperator"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceReConnect"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceServer"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceService"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceUnknown"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTraceUser"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTracelink"]
+- ["6NIOIRC14IRCCommandCodeO", "replyTryAgain"]
+- ["6NIOIRC14IRCCommandCodeO", "replyUModeIs"]
+- ["6NIOIRC14IRCCommandCodeO", "replyUnAway"]
+- ["6NIOIRC14IRCCommandCodeO", "replyUniqOpIs"]
+- ["6NIOIRC14IRCCommandCodeO", "replyUserhost"]
+- ["6NIOIRC14IRCCommandCodeO", "replyUsers"]
+- ["6NIOIRC14IRCCommandCodeO", "replyUsersStart"]
+- ["6NIOIRC14IRCCommandCodeO", "replyVersion"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWelcome"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWhoIsChannels"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWhoIsIdle"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWhoIsOperator"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWhoIsServer"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWhoIsUser"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWhoReply"]
+- ["6NIOIRC14IRCCommandCodeO", "replyWhoWasUser"]
+- ["6NIOIRC14IRCCommandCodeO", "replyYouROper"]
+- ["6NIOIRC14IRCCommandCodeO", "replyYourHost"]
+- ["6NIOIRC14IRCCommandCodeO", "replyYourService"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "6NIOIRC14IRCCommandCodeO"
+- !private "s25LosslessStringConvertibleP"
+- "SY"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-zlib-support.git--7964553127913951599/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d4642fdc30111d7bed5644479d7eadb3"

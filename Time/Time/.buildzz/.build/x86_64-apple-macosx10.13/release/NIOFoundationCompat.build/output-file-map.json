@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/NIOFoundationCompat.build/NIOFoundationCompat.d",
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/NIOFoundationCompat.build/NIOFoundationCompat.o",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/NIOFoundationCompat.build/master.swiftdeps"
+  },
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/NIOFoundationCompat/ByteBuffer-foundation.swift": {
+    "object": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/NIOFoundationCompat.build/ByteBuffer-foundation.swift.o",
+    "swiftmodule": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/NIOFoundationCompat.build/ByteBuffer-foundation~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/release/NIOFoundationCompat.build/ByteBuffer-foundation.swiftdeps"
+  }
+}

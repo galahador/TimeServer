@@ -1,0 +1,680 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RedisTypeTransformable"
+- "RedisTypeTransformationError"
+provides-nominal:
+- "5Redis0A17TypeTransformableP"
+- "5Redis0A23TypeTransformationErrorO"
+- "8NIORedis9RESPValueO"
+- "Sd"
+- "Si"
+- "SS"
+- "Sb"
+- "10Foundation4DataV"
+- "Sq"
+- "Sa"
+- "SD"
+provides-member:
+- ["5Redis0A17TypeTransformableP", ""]
+- ["5Redis0A23TypeTransformationErrorO", ""]
+- ["8NIORedis9RESPValueO", ""]
+- ["Sd", ""]
+- ["Si", ""]
+- ["SS", ""]
+- ["Sb", ""]
+- ["10Foundation4DataV", ""]
+- ["Sq", ""]
+- ["Sa", ""]
+- ["SD", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "%"
+- !private "+"
+- !private "/"
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Data"
+- "Dictionary"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Optional"
+- "RESPValue"
+- "RedisTypeTransformable"
+- "RedisTypeTransformationError"
+- "String"
+- "Swift"
+- "TernaryPrecedence"
+- "TimeInterval"
+- !private "stride"
+depends-member:
+- ["Sa", "Element"]
+- ["Sa", "RESPValue"]
+- ["Sa", "RedisTypeTransformable"]
+- !private ["Sa", "RedisTypeTransformationError"]
+- ["Sa", "deinit"]
+- ["Sa", "extractFromRESPValue"]
+- !private ["s13ArrayProtocolP", "Element"]
+- ["s13ArrayProtocolP", "RedisTypeTransformable"]
+- !private ["s13ArrayProtocolP", "RedisTypeTransformationError"]
+- !private ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "extractFromRESPValue"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "startIndex"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "RedisTypeTransformationError"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "extractFromRESPValue"]
+- !private ["SK", "Element"]
+- ["SK", "RedisTypeTransformable"]
+- !private ["SK", "RedisTypeTransformationError"]
+- !private ["SK", "count"]
+- ["SK", "extractFromRESPValue"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SB", "RedisTypeTransformationError"]
+- !private ["SB", "TimeInterval"]
+- ["SB", "extractFromRESPValue"]
+- !private ["SB", "init"]
+- !private ["Sz", "RedisTypeTransformationError"]
+- ["Sz", "extractFromRESPValue"]
+- ["Sb", "Bool"]
+- ["Sb", "RESPValue"]
+- !private ["Sb", "RedisTypeTransformationError"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Sb", "extractFromRESPValue"]
+- !private ["s7CVarArgP", "Element"]
+- !private ["s7CVarArgP", "Key"]
+- ["s7CVarArgP", "RedisTypeTransformable"]
+- !private ["s7CVarArgP", "RedisTypeTransformationError"]
+- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- !private ["s7CVarArgP", "Value"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "extractFromRESPValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "stride"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "Element"]
+- !private ["Sl", "Key"]
+- ["Sl", "RedisTypeTransformable"]
+- !private ["Sl", "RedisTypeTransformationError"]
+- ["Sl", "String"]
+- !private ["Sl", "Value"]
+- !private ["Sl", "count"]
+- ["Sl", "extractFromRESPValue"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "stride"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "RedisTypeTransformationError"]
+- !private ["SL", "TimeInterval"]
+- ["SL", "extractFromRESPValue"]
+- !private ["SL", "init"]
+- !private ["s15ContiguousArrayV", "count"]
+- !private ["s15ContiguousArrayV", "isEmpty"]
+- !private ["s15ContiguousArrayV", "map"]
+- !private ["s15ContiguousArrayV", "startIndex"]
+- !private ["s15ContiguousArrayV", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "Element"]
+- ["3NIO20ContiguousCollectionP", "RedisTypeTransformable"]
+- !private ["3NIO20ContiguousCollectionP", "RedisTypeTransformationError"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- ["3NIO20ContiguousCollectionP", "extractFromRESPValue"]
+- !private ["3NIO20ContiguousCollectionP", "isEmpty"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "startIndex"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- ["s28CustomDebugStringConvertibleP", "RedisTypeTransformable"]
+- !private ["s28CustomDebugStringConvertibleP", "RedisTypeTransformationError"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "Value"]
+- !private ["s28CustomDebugStringConvertibleP", "Wrapped"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "extractFromRESPValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "stride"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "RedisTypeTransformationError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "TimeInterval"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "extractFromRESPValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Element"]
+- !private ["s17CustomReflectableP", "Key"]
+- ["s17CustomReflectableP", "RedisTypeTransformable"]
+- !private ["s17CustomReflectableP", "RedisTypeTransformationError"]
+- ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "TimeInterval"]
+- !private ["s17CustomReflectableP", "Value"]
+- !private ["s17CustomReflectableP", "Wrapped"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "extractFromRESPValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "stride"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- ["s23CustomStringConvertibleP", "RedisTypeTransformable"]
+- !private ["s23CustomStringConvertibleP", "RedisTypeTransformationError"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- !private ["s23CustomStringConvertibleP", "Value"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "array"]
+- ["s23CustomStringConvertibleP", "bulkString"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataValue"]
+- ["s23CustomStringConvertibleP", "extractFromRESPValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "stride"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "RESPValue"]
+- !private ["10Foundation4DataV", "RedisTypeTransformationError"]
+- ["10Foundation4DataV", "deinit"]
+- ["10Foundation4DataV", "extractFromRESPValue"]
+- !private ["Se", "Element"]
+- !private ["Se", "Key"]
+- ["Se", "RedisTypeTransformable"]
+- !private ["Se", "RedisTypeTransformationError"]
+- ["Se", "String"]
+- !private ["Se", "TimeInterval"]
+- !private ["Se", "Value"]
+- !private ["Se", "Wrapped"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "extractFromRESPValue"]
+- !private ["Se", "init"]
+- ["Se", "none"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "stride"]
+- !private ["Se", "subscript"]
+- ["SD", "Key"]
+- ["SD", "RESPValue"]
+- !private ["SD", "RedisTypeTransformationError"]
+- ["SD", "String"]
+- ["SD", "Value"]
+- ["SD", "deinit"]
+- ["SD", "extractFromRESPValue"]
+- !private ["SD", "init"]
+- !private ["SD", "reserveCapacity"]
+- !private ["SD", "stride"]
+- !private ["SD", "subscript"]
+- ["Sd", "RESPValue"]
+- !private ["Sd", "RedisTypeTransformationError"]
+- ["Sd", "TimeInterval"]
+- ["Sd", "deinit"]
+- ["Sd", "extractFromRESPValue"]
+- !private ["Sd", "init"]
+- !private ["SE", "Element"]
+- !private ["SE", "Key"]
+- ["SE", "RedisTypeTransformable"]
+- !private ["SE", "RedisTypeTransformationError"]
+- ["SE", "String"]
+- !private ["SE", "TimeInterval"]
+- !private ["SE", "Value"]
+- !private ["SE", "Wrapped"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "extractFromRESPValue"]
+- !private ["SE", "init"]
+- ["SE", "none"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "stride"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "Key"]
+- ["SQ", "RedisTypeTransformable"]
+- !private ["SQ", "RedisTypeTransformationError"]
+- ["SQ", "String"]
+- !private ["SQ", "TimeInterval"]
+- !private ["SQ", "Value"]
+- !private ["SQ", "Wrapped"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "count"]
+- ["SQ", "extractFromRESPValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "map"]
+- ["SQ", "none"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "stride"]
+- !private ["SQ", "subscript"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "unexpectedHashValue"]
+- !private ["s5ErrorP", "unexpectedValueType"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "RedisTypeTransformable"]
+- !private ["s25ExpressibleByArrayLiteralP", "RedisTypeTransformationError"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "extractFromRESPValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "startIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "RedisTypeTransformationError"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s27ExpressibleByBooleanLiteralP", "extractFromRESPValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "RedisTypeTransformationError"]
+- ["s30ExpressibleByDictionaryLiteralP", "String"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "extractFromRESPValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reserveCapacity"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stride"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "RedisTypeTransformationError"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bulkString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dataValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "extractFromRESPValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "intValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "RedisTypeTransformationError"]
+- !private ["s25ExpressibleByFloatLiteralP", "TimeInterval"]
+- ["s25ExpressibleByFloatLiteralP", "extractFromRESPValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "RedisTypeTransformationError"]
+- !private ["s27ExpressibleByIntegerLiteralP", "TimeInterval"]
+- ["s27ExpressibleByIntegerLiteralP", "array"]
+- ["s27ExpressibleByIntegerLiteralP", "bulkString"]
+- !private ["s27ExpressibleByIntegerLiteralP", "dataValue"]
+- ["s27ExpressibleByIntegerLiteralP", "extractFromRESPValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- ["s23ExpressibleByNilLiteralP", "RedisTypeTransformable"]
+- !private ["s23ExpressibleByNilLiteralP", "Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "extractFromRESPValue"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s26ExpressibleByStringLiteralP", "RedisTypeTransformationError"]
+- ["s26ExpressibleByStringLiteralP", "array"]
+- ["s26ExpressibleByStringLiteralP", "bulkString"]
+- !private ["s26ExpressibleByStringLiteralP", "dataValue"]
+- ["s26ExpressibleByStringLiteralP", "extractFromRESPValue"]
+- !private ["s26ExpressibleByStringLiteralP", "intValue"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "RedisTypeTransformationError"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "bulkString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dataValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "extractFromRESPValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "intValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["s17FixedWidthIntegerP", "RedisTypeTransformationError"]
+- ["s17FixedWidthIntegerP", "extractFromRESPValue"]
+- !private ["SF", "RedisTypeTransformationError"]
+- !private ["SF", "TimeInterval"]
+- ["SF", "extractFromRESPValue"]
+- !private ["SF", "init"]
+- !private ["SH", "Element"]
+- !private ["SH", "Key"]
+- ["SH", "RedisTypeTransformable"]
+- !private ["SH", "RedisTypeTransformationError"]
+- ["SH", "String"]
+- !private ["SH", "TimeInterval"]
+- !private ["SH", "Value"]
+- !private ["SH", "Wrapped"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "count"]
+- ["SH", "extractFromRESPValue"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- ["SH", "none"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "stride"]
+- !private ["SH", "subscript"]
+- ["Si", "Int"]
+- ["Si", "RESPValue"]
+- !private ["Si", "RedisTypeTransformationError"]
+- ["Si", "deinit"]
+- ["Si", "extractFromRESPValue"]
+- !private ["s25LosslessStringConvertibleP", "RedisTypeTransformationError"]
+- !private ["s25LosslessStringConvertibleP", "TimeInterval"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "extractFromRESPValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "RedisTypeTransformationError"]
+- ["s10MirrorPathP", "extractFromRESPValue"]
+- !private ["SM", "Element"]
+- ["SM", "RedisTypeTransformable"]
+- !private ["SM", "RedisTypeTransformationError"]
+- !private ["SM", "count"]
+- ["SM", "extractFromRESPValue"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subscript"]
+- !private ["Sj", "RedisTypeTransformationError"]
+- !private ["Sj", "TimeInterval"]
+- ["Sj", "extractFromRESPValue"]
+- !private ["Sj", "init"]
+- ["Sq", "RESPValue"]
+- ["Sq", "RedisTypeTransformable"]
+- ["Sq", "Wrapped"]
+- ["Sq", "deinit"]
+- ["Sq", "extractFromRESPValue"]
+- ["Sq", "none"]
+- !private ["8NIORedis13RESPEncodableP", "Element"]
+- ["8NIORedis13RESPEncodableP", "RedisTypeTransformable"]
+- !private ["8NIORedis13RESPEncodableP", "RedisTypeTransformationError"]
+- !private ["8NIORedis13RESPEncodableP", "_getBuiltinLogicValue"]
+- ["8NIORedis13RESPEncodableP", "array"]
+- ["8NIORedis13RESPEncodableP", "bulkString"]
+- !private ["8NIORedis13RESPEncodableP", "dataValue"]
+- ["8NIORedis13RESPEncodableP", "extractFromRESPValue"]
+- !private ["8NIORedis13RESPEncodableP", "intValue"]
+- !private ["8NIORedis13RESPEncodableP", "stringValue"]
+- ["8NIORedis9RESPValueO", "RESPValue"]
+- ["8NIORedis9RESPValueO", "array"]
+- ["8NIORedis9RESPValueO", "bulkString"]
+- !private ["8NIORedis9RESPValueO", "dataValue"]
+- ["8NIORedis9RESPValueO", "deinit"]
+- ["8NIORedis9RESPValueO", "extractFromRESPValue"]
+- !private ["8NIORedis9RESPValueO", "intValue"]
+- !private ["8NIORedis9RESPValueO", "stringValue"]
+- !private ["Sk", "Element"]
+- ["Sk", "RedisTypeTransformable"]
+- !private ["Sk", "RedisTypeTransformationError"]
+- !private ["Sk", "count"]
+- ["Sk", "extractFromRESPValue"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "Element"]
+- ["Sm", "RedisTypeTransformable"]
+- !private ["Sm", "RedisTypeTransformationError"]
+- !private ["Sm", "count"]
+- ["Sm", "extractFromRESPValue"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["5Redis0A17TypeTransformableP", "Element"]
+- !private ["5Redis0A17TypeTransformableP", "Key"]
+- ["5Redis0A17TypeTransformableP", "RESPValue"]
+- ["5Redis0A17TypeTransformableP", "RedisTypeTransformable"]
+- !private ["5Redis0A17TypeTransformableP", "RedisTypeTransformationError"]
+- ["5Redis0A17TypeTransformableP", "String"]
+- !private ["5Redis0A17TypeTransformableP", "TimeInterval"]
+- !private ["5Redis0A17TypeTransformableP", "Value"]
+- !private ["5Redis0A17TypeTransformableP", "Wrapped"]
+- ["5Redis0A17TypeTransformableP", ""]
+- !private ["5Redis0A17TypeTransformableP", "_getBuiltinLogicValue"]
+- ["5Redis0A17TypeTransformableP", "array"]
+- ["5Redis0A17TypeTransformableP", "bulkString"]
+- !private ["5Redis0A17TypeTransformableP", "dataValue"]
+- ["5Redis0A17TypeTransformableP", "extractFromRESPValue"]
+- !private ["5Redis0A17TypeTransformableP", "init"]
+- !private ["5Redis0A17TypeTransformableP", "intValue"]
+- ["5Redis0A17TypeTransformableP", "none"]
+- !private ["5Redis0A17TypeTransformableP", "reserveCapacity"]
+- !private ["5Redis0A17TypeTransformableP", "stride"]
+- !private ["5Redis0A17TypeTransformableP", "stringValue"]
+- !private ["5Redis0A17TypeTransformableP", "subscript"]
+- ["5Redis0A23TypeTransformationErrorO", "RESPValue"]
+- ["5Redis0A23TypeTransformationErrorO", "_code"]
+- ["5Redis0A23TypeTransformationErrorO", "_domain"]
+- ["5Redis0A23TypeTransformationErrorO", "_getEmbeddedNSError"]
+- ["5Redis0A23TypeTransformationErrorO", "_userInfo"]
+- ["5Redis0A23TypeTransformationErrorO", "deinit"]
+- ["5Redis0A23TypeTransformationErrorO", "unexpectedHashValue"]
+- ["5Redis0A23TypeTransformationErrorO", "unexpectedValueType"]
+- ["5Redis0A23TypeTransformationErrorO", "unsupportedValueType"]
+- !private ["10Foundation20ReferenceConvertibleP", "RedisTypeTransformationError"]
+- ["10Foundation20ReferenceConvertibleP", "extractFromRESPValue"]
+- !private ["ST", "Element"]
+- !private ["ST", "Key"]
+- ["ST", "RedisTypeTransformable"]
+- !private ["ST", "RedisTypeTransformationError"]
+- ["ST", "String"]
+- !private ["ST", "Value"]
+- !private ["ST", "count"]
+- ["ST", "extractFromRESPValue"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "stride"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "RedisTypeTransformationError"]
+- ["SZ", "extractFromRESPValue"]
+- !private ["s13SignedNumericP", "RedisTypeTransformationError"]
+- !private ["s13SignedNumericP", "TimeInterval"]
+- ["s13SignedNumericP", "extractFromRESPValue"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "RedisTypeTransformationError"]
+- !private ["Sx", "TimeInterval"]
+- ["Sx", "extractFromRESPValue"]
+- !private ["Sx", "init"]
+- ["SS", "RESPValue"]
+- !private ["SS", "RedisTypeTransformationError"]
+- ["SS", "String"]
+- ["SS", "deinit"]
+- ["SS", "extractFromRESPValue"]
+- !private ["Sy", "RedisTypeTransformationError"]
+- ["Sy", "extractFromRESPValue"]
+- !private ["s16TextOutputStreamP", "RedisTypeTransformationError"]
+- ["s16TextOutputStreamP", "extractFromRESPValue"]
+- !private ["s20TextOutputStreamableP", "RedisTypeTransformationError"]
+- ["s20TextOutputStreamableP", "extractFromRESPValue"]
+- !private ["s18_BitwiseOperationsP", "RedisTypeTransformationError"]
+- ["s18_BitwiseOperationsP", "extractFromRESPValue"]
+- !private ["s15_CVarArgAlignedP", "RedisTypeTransformationError"]
+- !private ["s15_CVarArgAlignedP", "TimeInterval"]
+- ["s15_CVarArgAlignedP", "extractFromRESPValue"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "RedisTypeTransformationError"]
+- !private ["s22_CVarArgPassedAsDoubleP", "TimeInterval"]
+- ["s22_CVarArgPassedAsDoubleP", "extractFromRESPValue"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "Element"]
+- ["s24_DestructorSafeContainerP", "RedisTypeTransformable"]
+- !private ["s24_DestructorSafeContainerP", "RedisTypeTransformationError"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "extractFromRESPValue"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "startIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "RedisTypeTransformationError"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "extractFromRESPValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "RedisTypeTransformationError"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "extractFromRESPValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "RedisTypeTransformationError"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "TimeInterval"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "extractFromRESPValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "RedisTypeTransformationError"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "TimeInterval"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "extractFromRESPValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "RedisTypeTransformationError"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "extractFromRESPValue"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "RedisTypeTransformationError"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "extractFromRESPValue"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "RedisTypeTransformationError"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "extractFromRESPValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "RedisTypeTransformationError"]
+- ["s33_ExpressibleByStringInterpolationP", "extractFromRESPValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Element"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Key"]
+- ["s35_HasCustomAnyHashableRepresentationP", "RedisTypeTransformable"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "RedisTypeTransformationError"]
+- ["s35_HasCustomAnyHashableRepresentationP", "String"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "TimeInterval"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Value"]
+- ["s35_HasCustomAnyHashableRepresentationP", "extractFromRESPValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "stride"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "Element"]
+- !private ["s21_ObjectiveCBridgeableP", "Key"]
+- ["s21_ObjectiveCBridgeableP", "RedisTypeTransformable"]
+- !private ["s21_ObjectiveCBridgeableP", "RedisTypeTransformationError"]
+- ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "TimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "Value"]
+- !private ["s21_ObjectiveCBridgeableP", "Wrapped"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "extractFromRESPValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "stride"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "RedisTypeTransformationError"]
+- ["s16_SwiftStringViewP", "extractFromRESPValue"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "s15ContiguousArrayV"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "Se"
+- "SD"
+- "Sd"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "SF"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "Sj"
+- "Sq"
+- "8NIORedis13RESPEncodableP"
+- "8NIORedis9RESPValueO"
+- "Sk"
+- "Sm"
+- "5Redis0A17TypeTransformableP"
+- "5Redis0A23TypeTransformationErrorO"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIORedis.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-zlib-support.git--7964553127913951599/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0fa590b42556f8fca5a8271f8d5d13cf"

@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "8bd5971811b586e9d4bc4033ed1ced4f"
+build_time: [1545584036, 805326000]
+inputs:
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/ByteBufferBIO.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/IdentityVerification.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/OpenSSLHandler.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/PosixPort.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLCertificate.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLConnection.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLContext.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLErrors.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLInit.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLPKCS12Bundle.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLPointerTricks.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/SSLPrivateKey.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-ssl.git-2027750971810144845/Sources/NIOOpenSSL/TLSConfiguration.swift": [9223372036, 854775807]

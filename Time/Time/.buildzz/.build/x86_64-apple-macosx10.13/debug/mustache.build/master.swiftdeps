@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4bcee5665b83da768bcd4944004e15cc"
+build_time: [1545583999, 987245000]
+inputs:
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/mustache.git-3154593779410925381/Sources/mustache/HTMLEscape.swift": [1545583991, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/mustache.git-3154593779410925381/Sources/mustache/Helpers.swift": [1545583991, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/mustache.git-3154593779410925381/Sources/mustache/MustacheNode.swift": [1545583991, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/mustache.git-3154593779410925381/Sources/mustache/MustacheParser.swift": [1545583991, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/mustache.git-3154593779410925381/Sources/mustache/MustacheRenderingContext.swift": [1545583991, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/mustache.git-3154593779410925381/Sources/mustache/SimpleKVC.swift": [1545583991, 0]

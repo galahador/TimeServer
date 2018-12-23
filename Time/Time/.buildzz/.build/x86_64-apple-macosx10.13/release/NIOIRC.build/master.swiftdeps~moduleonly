@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "3f5d11adda9bee446acdae883b89c866"
+build_time: [1545584035, 406906000]
+inputs:
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Helpers/ByteBufferExtras.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Helpers/Scandinavian.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/IRCChannelHandler.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/IRCCommandParser.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/IRCDispatcher.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/IRCMessageParser.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/IRCMessageTarget.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCChannelMode.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCChannelName.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCCommand.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCCommandCodes.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCMessage.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCMessageRecipient.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCNickName.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCServerName.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCUserID.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCUserInfo.swift": [9223372036, 854775807]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-irc.git-2426445340711318895/Sources/NIOIRC/Model/IRCUserMode.swift": [9223372036, 854775807]

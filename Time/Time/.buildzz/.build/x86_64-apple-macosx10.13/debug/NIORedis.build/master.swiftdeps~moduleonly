@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "8d008ab00b5efc02bc7c3d98842f5117"
+build_time: [1545584008, 654727000]
+inputs:
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis.git--1736505939472061795/Sources/NIORedis/ByteBufferExtras.swift": [1545583989, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis.git--1736505939472061795/Sources/NIORedis/RESPChannelHandler.swift": [1545583989, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis.git--1736505939472061795/Sources/NIORedis/RESPEncodable.swift": [1545583989, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis.git--1736505939472061795/Sources/NIORedis/RESPParser.swift": [1545583989, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis.git--1736505939472061795/Sources/NIORedis/RESPPipelineSetup.swift": [1545583989, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis.git--1736505939472061795/Sources/NIORedis/RESPValue.swift": [1545583989, 0]

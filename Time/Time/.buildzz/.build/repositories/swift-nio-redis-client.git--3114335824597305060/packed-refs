@@ -1,0 +1,10 @@
+# pack-refs with: peeled fully-peeled sorted 
+93ecb242afa7b076f60c95c7a732d96655b0e082 refs/heads/develop
+8e12a8a910ee58999008325a8f1abaea94d50072 refs/heads/feature/standalone-parser
+f4bd0ea24e9209f47dc9a02e126c197a7bdc5f7d refs/heads/master
+f9f2d286d9308d71a78dd071e7a7e59307dbd2b2 refs/heads/nio/master
+54e12c22852aef81f76d449cc9b3510ae0d62ec4 refs/tags/0.8.0
+7339dbdcd6a5bea402cd9b5f82f2049537d29604 refs/tags/0.8.1
+a904c4bae65aa0bcbc8c17bd05fa9f13705ac0e8 refs/tags/0.8.2
+e7372d41732c352d513738c409bc4e8aea9d1635 refs/tags/0.8.3
+f4bd0ea24e9209f47dc9a02e126c197a7bdc5f7d refs/tags/0.9.0

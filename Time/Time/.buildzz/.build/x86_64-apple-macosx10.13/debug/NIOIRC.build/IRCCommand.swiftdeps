@@ -1,0 +1,481 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IRCCommand"
+provides-nominal:
+- "6NIOIRC10IRCCommandO"
+- "6NIOIRC10IRCCommandO13CAPSubCommandO"
+provides-member:
+- ["6NIOIRC10IRCCommandO", ""]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "-"
+- "=="
+- !private ">="
+- !private "??"
+- !private "Array"
+- "Bool"
+- "CustomStringConvertible"
+- !private "FloatLiteralType"
+- "IRCChannelMode"
+- "IRCChannelName"
+- "IRCCommand"
+- "IRCCommandCode"
+- "IRCMessageRecipient"
+- "IRCNickName"
+- "IRCUserInfo"
+- "IRCUserMode"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "fatalError"
+- !private "~="
+depends-member:
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "ACK"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "END"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "LIST"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "LS"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "NAK"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "REQ"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "RawValue"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "String"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "_Default_RawValue"]
+- !private ["6NIOIRC10IRCCommandO13CAPSubCommandO", "_findStringSwitchCase"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "commandAsString"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "deinit"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "hash"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "hashValue"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "init"]
+- ["6NIOIRC10IRCCommandO13CAPSubCommandO", "rawValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["SL", "count"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- ["s23CustomStringConvertibleP", "CAP"]
+- ["s23CustomStringConvertibleP", "CHANNELMODE"]
+- ["s23CustomStringConvertibleP", "CHANNELMODE_GET"]
+- ["s23CustomStringConvertibleP", "CHANNELMODE_GET_BANMASK"]
+- ["s23CustomStringConvertibleP", "ISON"]
+- ["s23CustomStringConvertibleP", "JOIN"]
+- ["s23CustomStringConvertibleP", "JOIN0"]
+- ["s23CustomStringConvertibleP", "LIST"]
+- ["s23CustomStringConvertibleP", "MODE"]
+- ["s23CustomStringConvertibleP", "MODEGET"]
+- ["s23CustomStringConvertibleP", "NICK"]
+- ["s23CustomStringConvertibleP", "NOTICE"]
+- ["s23CustomStringConvertibleP", "PART"]
+- ["s23CustomStringConvertibleP", "PING"]
+- ["s23CustomStringConvertibleP", "PONG"]
+- ["s23CustomStringConvertibleP", "PRIVMSG"]
+- ["s23CustomStringConvertibleP", "QUIT"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "USER"]
+- ["s23CustomStringConvertibleP", "WHO"]
+- ["s23CustomStringConvertibleP", "WHOIS"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "commandAsString"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "hostname"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "numeric"]
+- ["s23CustomStringConvertibleP", "otherCommand"]
+- ["s23CustomStringConvertibleP", "otherNumeric"]
+- !private ["s23CustomStringConvertibleP", "realname"]
+- !private ["s23CustomStringConvertibleP", "servername"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "usermask"]
+- !private ["s23CustomStringConvertibleP", "username"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- ["Se", "none"]
+- ["Se", "some"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- ["SE", "none"]
+- ["SE", "some"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "count"]
+- !private ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "hostname"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- ["SQ", "none"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "realname"]
+- !private ["SQ", "servername"]
+- ["SQ", "some"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "usermask"]
+- !private ["SQ", "username"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "joined"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "count"]
+- !private ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- ["SH", "none"]
+- ["SH", "rawValue"]
+- ["SH", "some"]
+- !private ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["6NIOIRC14IRCChannelModeV", "deinit"]
+- !private ["6NIOIRC14IRCChannelModeV", "isEmpty"]
+- !private ["6NIOIRC14IRCChannelModeV", "stringValue"]
+- !private ["6NIOIRC14IRCChannelNameV", "deinit"]
+- !private ["6NIOIRC14IRCChannelNameV", "stringValue"]
+- ["6NIOIRC10IRCCommandO", "Bool"]
+- ["6NIOIRC10IRCCommandO", "CAP"]
+- ["6NIOIRC10IRCCommandO", "CAPSubCommand"]
+- ["6NIOIRC10IRCCommandO", "CHANNELMODE"]
+- ["6NIOIRC10IRCCommandO", "CHANNELMODE_GET"]
+- ["6NIOIRC10IRCCommandO", "CHANNELMODE_GET_BANMASK"]
+- ["6NIOIRC10IRCCommandO", "IRCChannelMode"]
+- ["6NIOIRC10IRCCommandO", "IRCChannelName"]
+- ["6NIOIRC10IRCCommandO", "IRCCommandCode"]
+- ["6NIOIRC10IRCCommandO", "IRCMessageRecipient"]
+- ["6NIOIRC10IRCCommandO", "IRCNickName"]
+- ["6NIOIRC10IRCCommandO", "IRCUserInfo"]
+- ["6NIOIRC10IRCCommandO", "IRCUserMode"]
+- ["6NIOIRC10IRCCommandO", "ISON"]
+- ["6NIOIRC10IRCCommandO", "Int"]
+- ["6NIOIRC10IRCCommandO", "JOIN"]
+- ["6NIOIRC10IRCCommandO", "JOIN0"]
+- ["6NIOIRC10IRCCommandO", "LIST"]
+- ["6NIOIRC10IRCCommandO", "MODE"]
+- ["6NIOIRC10IRCCommandO", "MODEGET"]
+- ["6NIOIRC10IRCCommandO", "NICK"]
+- ["6NIOIRC10IRCCommandO", "NOTICE"]
+- ["6NIOIRC10IRCCommandO", "PART"]
+- ["6NIOIRC10IRCCommandO", "PING"]
+- ["6NIOIRC10IRCCommandO", "PONG"]
+- ["6NIOIRC10IRCCommandO", "PRIVMSG"]
+- ["6NIOIRC10IRCCommandO", "QUIT"]
+- ["6NIOIRC10IRCCommandO", "String"]
+- ["6NIOIRC10IRCCommandO", "USER"]
+- ["6NIOIRC10IRCCommandO", "WHO"]
+- ["6NIOIRC10IRCCommandO", "WHOIS"]
+- !private ["6NIOIRC10IRCCommandO", "_findStringSwitchCase"]
+- ["6NIOIRC10IRCCommandO", "arguments"]
+- ["6NIOIRC10IRCCommandO", "commandAsString"]
+- ["6NIOIRC10IRCCommandO", "deinit"]
+- ["6NIOIRC10IRCCommandO", "description"]
+- !private ["6NIOIRC10IRCCommandO", "fatalError"]
+- ["6NIOIRC10IRCCommandO", "numeric"]
+- ["6NIOIRC10IRCCommandO", "otherCommand"]
+- ["6NIOIRC10IRCCommandO", "otherNumeric"]
+- !private ["6NIOIRC14IRCCommandCodeO", "deinit"]
+- !private ["6NIOIRC14IRCCommandCodeO", "rawValue"]
+- !private ["6NIOIRC19IRCMessageRecipientO", "deinit"]
+- !private ["6NIOIRC19IRCMessageRecipientO", "description"]
+- !private ["6NIOIRC19IRCMessageRecipientO", "stringValue"]
+- !private ["6NIOIRC11IRCNickNameV", "deinit"]
+- !private ["6NIOIRC11IRCNickNameV", "stringValue"]
+- !private ["6NIOIRC11IRCUserInfoV", "deinit"]
+- !private ["6NIOIRC11IRCUserInfoV", "hostname"]
+- !private ["6NIOIRC11IRCUserInfoV", "realname"]
+- !private ["6NIOIRC11IRCUserInfoV", "servername"]
+- !private ["6NIOIRC11IRCUserInfoV", "usermask"]
+- !private ["6NIOIRC11IRCUserInfoV", "username"]
+- !private ["6NIOIRC11IRCUserModeV", "deinit"]
+- !private ["6NIOIRC11IRCUserModeV", "isEmpty"]
+- !private ["6NIOIRC11IRCUserModeV", "stringValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "count"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So8NSStringC", "count"]
+- !private ["s9OptionSetP", "isEmpty"]
+- !private ["s9OptionSetP", "stringValue"]
+- !private ["Sq", "joined"]
+- !private ["Sq", "map"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "isEmpty"]
+- ["SY", "rawValue"]
+- !private ["SY", "stringValue"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["s10SetAlgebraP", "isEmpty"]
+- !private ["s10SetAlgebraP", "stringValue"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "count"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["Sy", "count"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "count"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "count"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "count"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "count"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s16_SwiftStringViewP", "count"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- !private "Sb"
+- "6NIOIRC10IRCCommandO13CAPSubCommandO"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "6NIOIRC14IRCChannelModeV"
+- !private "6NIOIRC14IRCChannelNameV"
+- "6NIOIRC10IRCCommandO"
+- !private "6NIOIRC14IRCCommandCodeO"
+- !private "6NIOIRC19IRCMessageRecipientO"
+- !private "6NIOIRC11IRCNickNameV"
+- !private "6NIOIRC11IRCUserInfoV"
+- !private "6NIOIRC11IRCUserModeV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- "Sq"
+- !private "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-zlib-support.git--7964553127913951599/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ef02140c2dcf880ab27d9b40b481803d"

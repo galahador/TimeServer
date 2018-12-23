@@ -1,0 +1,4 @@
+module CNIOZlib {
+    umbrella header "/Users/tbug/TimeServer/TIme/TIme/.buildzz/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOZlib/include/CNIOZlib.h"
+    export *
+}

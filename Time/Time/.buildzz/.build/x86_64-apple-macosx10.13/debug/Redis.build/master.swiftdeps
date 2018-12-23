@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4d7f9bb34d955f49090fdcb560a5f8ac"
+build_time: [1545584010, 734849000]
+inputs:
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisClient.swift": [1545583995, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisClientOptions.swift": [1545583995, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisCommand.swift": [1545583995, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisCommandTarget.swift": [1545583995, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisPrint.swift": [1545583995, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisRetry.swift": [1545583995, 0]
+  "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-redis-client.git--3114335824597305060/Sources/Redis/RedisTypeTransformable.swift": [1545583995, 0]

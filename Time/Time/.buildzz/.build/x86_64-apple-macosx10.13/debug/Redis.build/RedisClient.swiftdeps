@@ -1,0 +1,946 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultRedisPort"
+- "createClient"
+- "RedisClient"
+provides-nominal:
+- "5Redis0A6ClientC"
+- "5Redis0A6ClientC5ErrorO"
+- "5Redis0A6ClientC5StateO"
+- "5Redis0A6ClientC7HandlerC"
+provides-member:
+- ["3NIO14ChannelOptionsV", ""]
+- ["5Redis0A6ClientC", ""]
+- ["5Redis0A6ClientC5ErrorO", ""]
+- ["5Redis0A6ClientC5StateO", ""]
+- ["5Redis0A6ClientC7HandlerC", ""]
+- ["3NIO14ChannelOptionsV", "reuseAddr"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "+="
+- !private ">"
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Channel"
+- "ChannelHandlerContext"
+- "ChannelInboundHandler"
+- "ChannelOptions"
+- "CircularBuffer"
+- "ClientBootstrap"
+- "DefaultRedisPort"
+- "EventLoop"
+- "EventLoopEventListenerSet"
+- "EventLoopFuture"
+- "EventLoopGroup"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NIOAny"
+- "RESPValue"
+- !private "Redis"
+- "RedisClient"
+- "RedisClientOptions"
+- "RedisCommandCall"
+- "RedisCommandTarget"
+- "RedisRetryInfo"
+- "SOL_SOCKET"
+- "SO_REUSEADDR"
+- "Set"
+- "SocketOptionLevel"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "TernaryPrecedence"
+- "Void"
+- !private "assert"
+- !private "assertionFailure"
+- "createClient"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["3NIO20AppendableCollectionP", "append"]
+- !private ["3NIO20AppendableCollectionP", "forEach"]
+- ["3NIO20AppendableCollectionP", "init"]
+- !private ["3NIO20AppendableCollectionP", "isEmpty"]
+- !private ["3NIO20AppendableCollectionP", "removeFirst"]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeAll"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["s13ArrayProtocolP", "stringValue"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "stringValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "forEach"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "removeFirst"]
+- !private ["SK", "stringValue"]
+- !private ["SK", "subscript"]
+- ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "formUnion"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "subtract"]
+- !private ["s7CVarArgP", "subtracting"]
+- !private ["s7CVarArgP", "union"]
+- !private ["3NIO7ChannelP", "close"]
+- !private ["3NIO7ChannelP", "flush"]
+- !private ["3NIO7ChannelP", "pipeline"]
+- !private ["3NIO7ChannelP", "write"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO14ChannelHandlerP", "_Default_OutboundOut"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO14ChannelHandlerP", "client"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelHandlerContextC", "close"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- ["3NIO21ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "_Default_OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO21ChannelInboundHandlerP", "client"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundInvokerP", "add"]
+- !private ["3NIO21ChannelInboundInvokerP", "close"]
+- !private ["3NIO21ChannelInboundInvokerP", "configureRedisPipeline"]
+- !private ["3NIO14ChannelInvokerP", "add"]
+- !private ["3NIO14ChannelInvokerP", "close"]
+- !private ["3NIO14ChannelInvokerP", "configureRedisPipeline"]
+- ["3NIO14ChannelOptionsV", "ChannelOptions"]
+- ["3NIO14ChannelOptionsV", "SOL_SOCKET"]
+- ["3NIO14ChannelOptionsV", "SO_REUSEADDR"]
+- ["3NIO14ChannelOptionsV", "SocketOptionLevel"]
+- ["3NIO14ChannelOptionsV", "reuseAddr"]
+- ["3NIO14ChannelOptionsV", "socket"]
+- !private ["3NIO22ChannelOutboundInvokerP", "add"]
+- !private ["3NIO22ChannelOutboundInvokerP", "close"]
+- !private ["3NIO22ChannelOutboundInvokerP", "configureRedisPipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "flush"]
+- !private ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "write"]
+- !private ["3NIO15ChannelPipelineC", "add"]
+- !private ["3NIO15ChannelPipelineC", "configureRedisPipeline"]
+- !private ["3NIO14CircularBufferV", "append"]
+- !private ["3NIO14CircularBufferV", "forEach"]
+- ["3NIO14CircularBufferV", "init"]
+- !private ["3NIO14CircularBufferV", "isEmpty"]
+- !private ["3NIO14CircularBufferV", "removeFirst"]
+- !private ["3NIO15ClientBootstrapC", "channelInitializer"]
+- !private ["3NIO15ClientBootstrapC", "channelOption"]
+- !private ["3NIO15ClientBootstrapC", "connect"]
+- !private ["3NIO15ClientBootstrapC", "init"]
+- !private ["3NIO9CloseModeO", "all"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "formUnion"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "removeFirst"]
+- !private ["Sl", "stringValue"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "subtract"]
+- !private ["Sl", "subtracting"]
+- !private ["Sl", "union"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["5Redis14ConnectOptionsC", "eventLoopGroup"]
+- !private ["5Redis14ConnectOptionsC", "hostname"]
+- !private ["5Redis14ConnectOptionsC", "port"]
+- !private ["s15ContiguousArrayV", "count"]
+- !private ["s15ContiguousArrayV", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "isEmpty"]
+- !private ["3NIO20ContiguousCollectionP", "removeAll"]
+- !private ["3NIO20ContiguousCollectionP", "stringValue"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "configureRedisPipeline"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "formUnion"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "subtract"]
+- !private ["s28CustomDebugStringConvertibleP", "subtracting"]
+- !private ["s28CustomDebugStringConvertibleP", "union"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "formUnion"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "stringValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "subtract"]
+- !private ["s17CustomReflectableP", "subtracting"]
+- !private ["s17CustomReflectableP", "union"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "bulkString"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "eventLoopGroup"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "formUnion"]
+- !private ["s23CustomStringConvertibleP", "hostname"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isSubscribe"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "port"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "subtract"]
+- !private ["s23CustomStringConvertibleP", "subtracting"]
+- !private ["s23CustomStringConvertibleP", "union"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "formUnion"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "removeAll"]
+- ["Se", "some"]
+- !private ["Se", "subtract"]
+- !private ["Se", "subtracting"]
+- !private ["Se", "union"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "formUnion"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "removeAll"]
+- ["SE", "some"]
+- !private ["SE", "subtract"]
+- !private ["SE", "subtracting"]
+- !private ["SE", "union"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "all"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "formUnion"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "map"]
+- !private ["SQ", "removeAll"]
+- ["SQ", "some"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "subtract"]
+- !private ["SQ", "subtracting"]
+- !private ["SQ", "thenThrowing"]
+- !private ["SQ", "union"]
+- !private ["SQ", "whenComplete"]
+- !private ["SQ", "whenFailure"]
+- ["5Redis0A6ClientC5ErrorO", "Swift"]
+- ["s5ErrorP", ""]
+- ["5Redis0A6ClientC5ErrorO", "_code"]
+- ["s5ErrorP", "_code"]
+- ["5Redis0A6ClientC5ErrorO", "_domain"]
+- ["s5ErrorP", "_domain"]
+- ["5Redis0A6ClientC5ErrorO", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["5Redis0A6ClientC5ErrorO", "_userInfo"]
+- ["s5ErrorP", "_userInfo"]
+- ["5Redis0A6ClientC5ErrorO", "channelError"]
+- !private ["s5ErrorP", "channelError"]
+- ["5Redis0A6ClientC5ErrorO", "deinit"]
+- ["5Redis0A6ClientC5ErrorO", "internalInconsistency"]
+- !private ["s5ErrorP", "internalInconsistency"]
+- ["5Redis0A6ClientC5ErrorO", "notImplemented"]
+- !private ["s5ErrorP", "notImplemented"]
+- ["5Redis0A6ClientC5ErrorO", "stopped"]
+- !private ["s5ErrorP", "stopped"]
+- ["5Redis0A6ClientC5ErrorO", "unexpectedInput"]
+- !private ["s5ErrorP", "unexpectedInput"]
+- ["5Redis0A6ClientC5ErrorO", "writeError"]
+- !private ["s5ErrorP", "writeError"]
+- !private ["3NIO9EventLoopP", "execute"]
+- !private ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "thenThrowing"]
+- !private ["3NIO15EventLoopFutureC", "whenComplete"]
+- !private ["3NIO15EventLoopFutureC", "whenFailure"]
+- !private ["3NIO14EventLoopGroupP", "execute"]
+- !private ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "next"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "subtract"]
+- !private ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- !private ["s25ExpressibleByArrayLiteralP", "union"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bulkString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "intValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- ["s27ExpressibleByIntegerLiteralP", "array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bulkString"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- ["s26ExpressibleByStringLiteralP", "array"]
+- !private ["s26ExpressibleByStringLiteralP", "bulkString"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "intValue"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "bulkString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "intValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["5Redis0A6ClientC7HandlerC", "ChannelHandlerContext"]
+- ["5Redis0A6ClientC7HandlerC", "Error"]
+- ["5Redis0A6ClientC7HandlerC", "InboundIn"]
+- ["5Redis0A6ClientC7HandlerC", "InboundOut"]
+- ["5Redis0A6ClientC7HandlerC", "NIOAny"]
+- ["5Redis0A6ClientC7HandlerC", "OutboundOut"]
+- ["5Redis0A6ClientC7HandlerC", "RESPValue"]
+- ["5Redis0A6ClientC7HandlerC", "RedisClient"]
+- ["5Redis0A6ClientC7HandlerC", "_Default_InboundOut"]
+- ["5Redis0A6ClientC7HandlerC", "_Default_OutboundOut"]
+- ["5Redis0A6ClientC7HandlerC", "channelActive"]
+- ["5Redis0A6ClientC7HandlerC", "channelInactive"]
+- ["5Redis0A6ClientC7HandlerC", "channelRead"]
+- ["5Redis0A6ClientC7HandlerC", "channelReadComplete"]
+- ["5Redis0A6ClientC7HandlerC", "channelRegistered"]
+- ["5Redis0A6ClientC7HandlerC", "channelUnregistered"]
+- ["5Redis0A6ClientC7HandlerC", "channelWritabilityChanged"]
+- ["5Redis0A6ClientC7HandlerC", "client"]
+- ["5Redis0A6ClientC7HandlerC", "deinit"]
+- ["5Redis0A6ClientC7HandlerC", "errorCaught"]
+- ["5Redis0A6ClientC7HandlerC", "handlerAdded"]
+- ["5Redis0A6ClientC7HandlerC", "handlerRemoved"]
+- ["5Redis0A6ClientC7HandlerC", "init"]
+- ["5Redis0A6ClientC7HandlerC", "unwrapInboundIn"]
+- ["5Redis0A6ClientC7HandlerC", "userInboundEventTriggered"]
+- ["5Redis0A6ClientC7HandlerC", "wrapInboundOut"]
+- ["5Redis0A6ClientC7HandlerC", "wrapOutboundOut"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "all"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "formUnion"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "removeAll"]
+- ["SH", "some"]
+- !private ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "subtract"]
+- !private ["SH", "subtracting"]
+- !private ["SH", "union"]
+- ["s5Int32V", "init"]
+- !private ["s22LazyCollectionProtocolP", "stringValue"]
+- !private ["s20LazySequenceProtocolP", "stringValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "stringValue"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "lowercased"]
+- ["Sj", "init"]
+- ["Sq", "some"]
+- !private ["8NIORedis13RESPEncodableP", "_getBuiltinLogicValue"]
+- !private ["8NIORedis13RESPEncodableP", "append"]
+- ["8NIORedis13RESPEncodableP", "array"]
+- !private ["8NIORedis13RESPEncodableP", "bulkString"]
+- ["8NIORedis13RESPEncodableP", "init"]
+- !private ["8NIORedis13RESPEncodableP", "init"]
+- !private ["8NIORedis13RESPEncodableP", "intValue"]
+- !private ["8NIORedis13RESPEncodableP", "isEmpty"]
+- !private ["8NIORedis13RESPEncodableP", "isSubscribe"]
+- !private ["8NIORedis13RESPEncodableP", "lowercased"]
+- !private ["8NIORedis13RESPEncodableP", "removeAll"]
+- !private ["8NIORedis13RESPEncodableP", "stringValue"]
+- ["8NIORedis9RESPValueO", "array"]
+- !private ["8NIORedis9RESPValueO", "bulkString"]
+- !private ["8NIORedis9RESPValueO", "intValue"]
+- !private ["8NIORedis9RESPValueO", "stringValue"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "forEach"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sk", "stringValue"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "forEach"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "stringValue"]
+- !private ["Sm", "subscript"]
+- ["5Redis0A6ClientC", "Bool"]
+- ["5Redis0A6ClientC", "Channel"]
+- ["5Redis0A6ClientC", "ChannelHandlerContext"]
+- ["5Redis0A6ClientC", "ChannelInboundHandler"]
+- !private ["5Redis0A6ClientC", "ChannelOptions"]
+- ["5Redis0A6ClientC", "CircularBuffer"]
+- ["5Redis0A6ClientC", "ClientBootstrap"]
+- ["5Redis0A6ClientC", "Error"]
+- ["5Redis0A6ClientC", "EventLoop"]
+- ["5Redis0A6ClientC", "EventLoopEventListenerSet"]
+- ["5Redis0A6ClientC", "EventLoopFuture"]
+- ["5Redis0A6ClientC", "Handler"]
+- ["5Redis0A6ClientC", "Int"]
+- ["5Redis0A6ClientC", "NIOAny"]
+- ["5Redis0A6ClientC", "RESPValue"]
+- !private ["5Redis0A6ClientC", "Redis"]
+- ["5Redis0A6ClientC", "RedisClient"]
+- ["5Redis0A6ClientC", "RedisClientOptions"]
+- ["5Redis0A6ClientC", "RedisCommandCall"]
+- ["5Redis0A6ClientC", "RedisRetryInfo"]
+- ["5Redis0A6ClientC", "Set"]
+- ["5Redis0A6ClientC", "State"]
+- ["5Redis0A6ClientC", "String"]
+- ["5Redis0A6ClientC", "Swift"]
+- ["5Redis0A6ClientC", "Void"]
+- !private ["5Redis0A6ClientC", "_authenticate"]
+- ["5Redis0A6ClientC", "_closeOnUnexpectedError"]
+- !private ["5Redis0A6ClientC", "_connect"]
+- ["5Redis0A6ClientC", "_enqueueCommandCall"]
+- ["5Redis0A6ClientC", "_handleReply"]
+- !private ["5Redis0A6ClientC", "_processQueue"]
+- !private ["5Redis0A6ClientC", "_resubscribe"]
+- ["5Redis0A6ClientC", "_sendQueuedCommands"]
+- !private ["5Redis0A6ClientC", "_subscribe"]
+- !private ["5Redis0A6ClientC", "_unsubscribe"]
+- !private ["5Redis0A6ClientC", "assert"]
+- !private ["5Redis0A6ClientC", "assertionFailure"]
+- !private ["5Redis0A6ClientC", "bootstrap"]
+- ["5Redis0A6ClientC", "callQueue"]
+- ["5Redis0A6ClientC", "channel"]
+- ["5Redis0A6ClientC", "deinit"]
+- ["5Redis0A6ClientC", "enqueueCommandCall"]
+- ["5Redis0A6ClientC", "eventLoop"]
+- ["5Redis0A6ClientC", "handlerCaughtError"]
+- ["5Redis0A6ClientC", "handlerDidDisconnect"]
+- ["5Redis0A6ClientC", "handlerHandleResult"]
+- ["5Redis0A6ClientC", "init"]
+- !private ["5Redis0A6ClientC", "messageListeners"]
+- ["5Redis0A6ClientC", "onMessage"]
+- ["5Redis0A6ClientC", "onSubscribe"]
+- ["5Redis0A6ClientC", "options"]
+- ["5Redis0A6ClientC", "pendingCalls"]
+- !private ["5Redis0A6ClientC", "print"]
+- ["5Redis0A6ClientC", "psubscribe"]
+- ["5Redis0A6ClientC", "punsubscribe"]
+- ["5Redis0A6ClientC", "quit"]
+- ["5Redis0A6ClientC", "retryInfo"]
+- !private ["5Redis0A6ClientC", "state"]
+- ["5Redis0A6ClientC", "subscribe"]
+- !private ["5Redis0A6ClientC", "subscribeListeners"]
+- ["5Redis0A6ClientC", "subscribedChannels"]
+- ["5Redis0A6ClientC", "subscribedPatterns"]
+- ["5Redis0A6ClientC", "unsubscribe"]
+- !private ["5Redis0A13ClientOptionsC", "eventLoopGroup"]
+- !private ["5Redis0A13ClientOptionsC", "hostname"]
+- !private ["5Redis0A13ClientOptionsC", "init"]
+- !private ["5Redis0A13ClientOptionsC", "port"]
+- !private ["5Redis0A7CommandC", "isSubscribe"]
+- !private ["5Redis0A11CommandCallC", "command"]
+- !private ["5Redis0A11CommandCallC", "init"]
+- !private ["5Redis0A11CommandCallC", "promise"]
+- !private ["5Redis0A13CommandTargetP", "ChannelOptions"]
+- ["5Redis0A13CommandTargetP", "CircularBuffer"]
+- !private ["5Redis0A13CommandTargetP", "ClientBootstrap"]
+- !private ["5Redis0A13CommandTargetP", "Error"]
+- ["5Redis0A13CommandTargetP", "EventLoopEventListenerSet"]
+- !private ["5Redis0A13CommandTargetP", "Handler"]
+- !private ["5Redis0A13CommandTargetP", "Redis"]
+- !private ["5Redis0A13CommandTargetP", "RedisCommandCall"]
+- ["5Redis0A13CommandTargetP", "RedisRetryInfo"]
+- ["5Redis0A13CommandTargetP", "Set"]
+- ["5Redis0A13CommandTargetP", ""]
+- !private ["5Redis0A13CommandTargetP", "_authenticate"]
+- !private ["5Redis0A13CommandTargetP", "_closeOnUnexpectedError"]
+- !private ["5Redis0A13CommandTargetP", "_connect"]
+- !private ["5Redis0A13CommandTargetP", "_enqueueCommandCall"]
+- !private ["5Redis0A13CommandTargetP", "_handleReply"]
+- !private ["5Redis0A13CommandTargetP", "_processQueue"]
+- !private ["5Redis0A13CommandTargetP", "_resubscribe"]
+- !private ["5Redis0A13CommandTargetP", "_sendQueuedCommands"]
+- !private ["5Redis0A13CommandTargetP", "_subscribe"]
+- !private ["5Redis0A13CommandTargetP", "_unsubscribe"]
+- !private ["5Redis0A13CommandTargetP", "assert"]
+- !private ["5Redis0A13CommandTargetP", "assertionFailure"]
+- !private ["5Redis0A13CommandTargetP", "bootstrap"]
+- !private ["5Redis0A13CommandTargetP", "callQueue"]
+- !private ["5Redis0A13CommandTargetP", "channel"]
+- ["5Redis0A13CommandTargetP", "enqueueCommandCall"]
+- ["5Redis0A13CommandTargetP", "eventLoop"]
+- !private ["5Redis0A13CommandTargetP", "handlerCaughtError"]
+- !private ["5Redis0A13CommandTargetP", "handlerDidDisconnect"]
+- !private ["5Redis0A13CommandTargetP", "handlerHandleResult"]
+- !private ["5Redis0A13CommandTargetP", "init"]
+- !private ["5Redis0A13CommandTargetP", "messageListeners"]
+- !private ["5Redis0A13CommandTargetP", "options"]
+- !private ["5Redis0A13CommandTargetP", "pendingCalls"]
+- !private ["5Redis0A13CommandTargetP", "print"]
+- !private ["5Redis0A13CommandTargetP", "retryInfo"]
+- !private ["5Redis0A13CommandTargetP", "state"]
+- !private ["5Redis0A13CommandTargetP", "subscribeListeners"]
+- !private ["5Redis0A13CommandTargetP", "subscribedChannels"]
+- !private ["5Redis0A13CommandTargetP", "subscribedPatterns"]
+- !private ["5Redis0A9RetryInfoV", "attempt"]
+- ["5Redis0A9RetryInfoV", "init"]
+- !private ["5Redis0A9RetryInfoV", "lastSocketError"]
+- !private ["5Redis0A9RetryInfoV", "registerSuccessfulConnect"]
+- !private ["5Redis0A17TypeTransformableP", "_getBuiltinLogicValue"]
+- !private ["5Redis0A17TypeTransformableP", "append"]
+- ["5Redis0A17TypeTransformableP", "array"]
+- !private ["5Redis0A17TypeTransformableP", "bulkString"]
+- ["5Redis0A17TypeTransformableP", "init"]
+- !private ["5Redis0A17TypeTransformableP", "init"]
+- !private ["5Redis0A17TypeTransformableP", "intValue"]
+- !private ["5Redis0A17TypeTransformableP", "isEmpty"]
+- !private ["5Redis0A17TypeTransformableP", "lowercased"]
+- !private ["5Redis0A17TypeTransformableP", "removeAll"]
+- ["5Redis0A17TypeTransformableP", "some"]
+- !private ["5Redis0A17TypeTransformableP", "stringValue"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "forEach"]
+- !private ["ST", "formUnion"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "stringValue"]
+- !private ["ST", "subscript"]
+- !private ["ST", "subtract"]
+- !private ["ST", "subtracting"]
+- !private ["ST", "union"]
+- !private ["Sh", "formUnion"]
+- ["Sh", "init"]
+- !private ["Sh", "isEmpty"]
+- !private ["Sh", "subtract"]
+- !private ["Sh", "subtracting"]
+- !private ["Sh", "union"]
+- !private ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "isEmpty"]
+- !private ["s10SetAlgebraP", "subtract"]
+- !private ["s10SetAlgebraP", "subtracting"]
+- !private ["s10SetAlgebraP", "union"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- !private ["s5SliceV", "stringValue"]
+- ["5Redis0A6ClientC5StateO", "Bool"]
+- ["5Redis0A6ClientC5StateO", "Channel"]
+- ["5Redis0A6ClientC5StateO", "Error"]
+- ["5Redis0A6ClientC5StateO", "authenticating"]
+- ["5Redis0A6ClientC5StateO", "canStartConnection"]
+- ["5Redis0A6ClientC5StateO", "channel"]
+- ["5Redis0A6ClientC5StateO", "connected"]
+- ["5Redis0A6ClientC5StateO", "connecting"]
+- ["5Redis0A6ClientC5StateO", "disconnected"]
+- ["5Redis0A6ClientC5StateO", "error"]
+- ["5Redis0A6ClientC5StateO", "isConnected"]
+- ["5Redis0A6ClientC5StateO", "quit"]
+- ["5Redis0A6ClientC5StateO", "requestedQuit"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- ["s18_BitwiseOperationsP", "init"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO22_ChannelInboundHandlerP", "client"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "stringValue"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- !private ["3NIO23_EmittingChannelHandlerP", "client"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "formUnion"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subtract"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subtracting"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "union"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "formUnion"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "subtract"]
+- !private ["s21_ObjectiveCBridgeableP", "subtracting"]
+- !private ["s21_ObjectiveCBridgeableP", "union"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+depends-nominal:
+- "3NIO20AppendableCollectionP"
+- "Sa"
+- "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- "3NIO14ChannelOptionsV"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO15ChannelPipelineC"
+- "3NIO14CircularBufferV"
+- !private "3NIO15ClientBootstrapC"
+- !private "3NIO9CloseModeO"
+- "Sl"
+- "SL"
+- !private "5Redis14ConnectOptionsC"
+- !private "s15ContiguousArrayV"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "5Redis0A6ClientC5ErrorO"
+- "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- !private "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- !private "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- !private "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- !private "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- !private "s5ErrorP"
+- "5Redis0A6ClientC5ErrorO"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "5Redis0A6ClientC7HandlerC"
+- "SH"
+- "s5Int32V"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sj"
+- "Sq"
+- "8NIORedis13RESPEncodableP"
+- "8NIORedis9RESPValueO"
+- "Sk"
+- "Sm"
+- "5Redis0A6ClientC"
+- !private "5Redis0A13ClientOptionsC"
+- !private "5Redis0A7CommandC"
+- !private "5Redis0A11CommandCallC"
+- "5Redis0A13CommandTargetP"
+- "5Redis0A9RetryInfoV"
+- "5Redis0A17TypeTransformableP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- "SZ"
+- "s13SignedNumericP"
+- !private "s5SliceV"
+- "5Redis0A6ClientC5StateO"
+- !private "s12StaticStringV"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s18_BitwiseOperationsP"
+- "3NIO22_ChannelInboundHandlerP"
+- "s24_DestructorSafeContainerP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIORedis.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-zlib-support.git--7964553127913951599/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "917272de2d8897219b1522bafe0a898b"

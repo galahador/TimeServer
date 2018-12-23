@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketOptionProvider"
+provides-nominal:
+- "3NIO20SocketOptionProviderP"
+- "3NIO17BaseSocketChannelC"
+provides-member:
+- ["3NIO20SocketOptionProviderP", ""]
+- ["3NIO17BaseSocketChannelC", ""]
+- ["3NIO20SocketOptionProviderP", "setSoLinger"]
+- ["3NIO20SocketOptionProviderP", "getSoLinger"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastLoop"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BaseSocketChannel"
+- "CInt"
+- "CUnsignedChar"
+- "CUnsignedInt"
+- "EventLoop"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- !private "IPPROTO_IP"
+- !private "IPPROTO_IPV6"
+- !private "IPV6_MULTICAST_HOPS"
+- !private "IPV6_MULTICAST_IF"
+- !private "IPV6_MULTICAST_LOOP"
+- !private "IP_MULTICAST_IF"
+- !private "IP_MULTICAST_LOOP"
+- !private "IP_MULTICAST_TTL"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- !private "SOL_SOCKET"
+- !private "SO_LINGER"
+- "SocketOptionLevel"
+- "SocketOptionName"
+- "SocketOptionProvider"
+- !private "StringLiteralType"
+- "Void"
+- !private "executeAndComplete"
+- "in_addr"
+- "linger"
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["3NIO10BaseSocketC", "getOption"]
+- !private ["3NIO10BaseSocketC", "setOption"]
+- ["3NIO17BaseSocketChannelC", "EventLoopFuture"]
+- !private ["3NIO17BaseSocketChannelC", "Int32"]
+- ["3NIO17BaseSocketChannelC", "SocketOptionLevel"]
+- ["3NIO17BaseSocketChannelC", "SocketOptionName"]
+- ["3NIO17BaseSocketChannelC", "Void"]
+- ["3NIO17BaseSocketChannelC", "deinit"]
+- ["3NIO17BaseSocketChannelC", "eventLoop"]
+- !private ["3NIO17BaseSocketChannelC", "executeAndComplete"]
+- ["3NIO17BaseSocketChannelC", "getSocketOption0"]
+- ["3NIO17BaseSocketChannelC", "setSocketOption0"]
+- !private ["3NIO17BaseSocketChannelC", "socket"]
+- ["3NIO17BaseSocketChannelC", "unsafeGetSocketOption"]
+- ["3NIO17BaseSocketChannelC", "unsafeSetSocketOption"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["3NIO7ChannelP", "Int32"]
+- !private ["3NIO7ChannelP", "Void"]
+- ["3NIO7ChannelP", "eventLoop"]
+- !private ["3NIO7ChannelP", "executeAndComplete"]
+- !private ["3NIO7ChannelP", "getSocketOption0"]
+- !private ["3NIO7ChannelP", "setSocketOption0"]
+- !private ["3NIO7ChannelP", "socket"]
+- ["3NIO7ChannelP", "unsafeGetSocketOption"]
+- ["3NIO7ChannelP", "unsafeSetSocketOption"]
+- !private ["3NIO11ChannelCoreP", "Int32"]
+- !private ["3NIO11ChannelCoreP", "Void"]
+- ["3NIO11ChannelCoreP", "eventLoop"]
+- !private ["3NIO11ChannelCoreP", "executeAndComplete"]
+- !private ["3NIO11ChannelCoreP", "getSocketOption0"]
+- !private ["3NIO11ChannelCoreP", "setSocketOption0"]
+- !private ["3NIO11ChannelCoreP", "socket"]
+- ["3NIO11ChannelCoreP", "unsafeGetSocketOption"]
+- ["3NIO11ChannelCoreP", "unsafeSetSocketOption"]
+- !private ["3NIO22ChannelOutboundInvokerP", "Int32"]
+- !private ["3NIO22ChannelOutboundInvokerP", "Void"]
+- ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "executeAndComplete"]
+- !private ["3NIO22ChannelOutboundInvokerP", "getSocketOption0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "setSocketOption0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "socket"]
+- ["3NIO22ChannelOutboundInvokerP", "unsafeGetSocketOption"]
+- ["3NIO22ChannelOutboundInvokerP", "unsafeSetSocketOption"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "getOption"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setOption"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "init"]
+- !private ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO9EventLoopP", "submit"]
+- !private ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO14EventLoopGroupP", "submit"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["3NIO14FileDescriptorP", "getOption"]
+- !private ["3NIO14FileDescriptorP", "setOption"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["Sj", "init"]
+- !private ["3NIO10SelectableP", "getOption"]
+- !private ["3NIO10SelectableP", "setOption"]
+- !private ["3NIO17SelectableChannelP", "Int32"]
+- !private ["3NIO17SelectableChannelP", "Void"]
+- ["3NIO17SelectableChannelP", "eventLoop"]
+- !private ["3NIO17SelectableChannelP", "executeAndComplete"]
+- !private ["3NIO17SelectableChannelP", "getSocketOption0"]
+- !private ["3NIO17SelectableChannelP", "setSocketOption0"]
+- !private ["3NIO17SelectableChannelP", "socket"]
+- ["3NIO17SelectableChannelP", "unsafeGetSocketOption"]
+- ["3NIO17SelectableChannelP", "unsafeSetSocketOption"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["3NIO20SocketOptionProviderP", "CInt"]
+- ["3NIO20SocketOptionProviderP", "CUnsignedChar"]
+- ["3NIO20SocketOptionProviderP", "CUnsignedInt"]
+- ["3NIO20SocketOptionProviderP", "EventLoop"]
+- ["3NIO20SocketOptionProviderP", "EventLoopFuture"]
+- !private ["3NIO20SocketOptionProviderP", "IPPROTO_IP"]
+- !private ["3NIO20SocketOptionProviderP", "IPPROTO_IPV6"]
+- !private ["3NIO20SocketOptionProviderP", "IPV6_MULTICAST_HOPS"]
+- !private ["3NIO20SocketOptionProviderP", "IPV6_MULTICAST_IF"]
+- !private ["3NIO20SocketOptionProviderP", "IPV6_MULTICAST_LOOP"]
+- !private ["3NIO20SocketOptionProviderP", "IP_MULTICAST_IF"]
+- !private ["3NIO20SocketOptionProviderP", "IP_MULTICAST_LOOP"]
+- !private ["3NIO20SocketOptionProviderP", "IP_MULTICAST_TTL"]
+- !private ["3NIO20SocketOptionProviderP", "Int32"]
+- !private ["3NIO20SocketOptionProviderP", "SOL_SOCKET"]
+- !private ["3NIO20SocketOptionProviderP", "SO_LINGER"]
+- ["3NIO20SocketOptionProviderP", "SocketOptionLevel"]
+- ["3NIO20SocketOptionProviderP", "SocketOptionName"]
+- ["3NIO20SocketOptionProviderP", "Void"]
+- ["3NIO20SocketOptionProviderP", ""]
+- ["3NIO20SocketOptionProviderP", "eventLoop"]
+- !private ["3NIO20SocketOptionProviderP", "executeAndComplete"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getSoLinger"]
+- !private ["3NIO20SocketOptionProviderP", "getSocketOption0"]
+- ["3NIO20SocketOptionProviderP", "in_addr"]
+- ["3NIO20SocketOptionProviderP", "linger"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "setSoLinger"]
+- !private ["3NIO20SocketOptionProviderP", "setSocketOption0"]
+- !private ["3NIO20SocketOptionProviderP", "socket"]
+- ["3NIO20SocketOptionProviderP", "unsafeGetSocketOption"]
+- ["3NIO20SocketOptionProviderP", "unsafeSetSocketOption"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+depends-nominal:
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "3NIO10BaseSocketC"
+- "3NIO17BaseSocketChannelC"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "3NIO7ChannelP"
+- "3NIO11ChannelCoreP"
+- "3NIO22ChannelOutboundInvokerP"
+- !private "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3NIO14FileDescriptorP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "Sj"
+- !private "3NIO10SelectableP"
+- "3NIO17SelectableChannelP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "3NIO20SocketOptionProviderP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio.git-1723641586744478400/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-zlib-support.git--7964553127913951599/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "9fa3d610c7a949a75d0a13b45be52c93"

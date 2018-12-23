@@ -1,0 +1,714 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MustacheParser"
+provides-nominal:
+- "8mustache14MustacheParserC"
+- "8mustache14MustacheParserC0B5TokenO"
+provides-member:
+- ["8mustache14MustacheParserC", ""]
+- ["8mustache14MustacheParserC0B5TokenO", ""]
+- ["SS", ""]
+- ["SS", "fromCString"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "=="
+- "AssignmentPrecedence"
+- "CChar"
+- "CastingPrecedence"
+- "Character"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "MustacheNode"
+- "MustacheParser"
+- !private "Optional"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UInt32"
+- !private "UnicodeScalar"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- !private "assert"
+- !private "memcpy"
+- !private "print"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "String"]
+- !private ["SK", "UnsafeMutablePointer"]
+- !private ["SK", "append"]
+- !private ["SK", "fromCString"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "memcpy"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "unicodeScalars"]
+- !private ["SK", "value"]
+- !private ["SK", "withCString"]
+- !private ["Sz", "init"]
+- !private ["Sz", "pointee"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UnsafeMutablePointer"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "fromCString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "memcpy"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unicodeScalars"]
+- !private ["s7CVarArgP", "withCString"]
+- !private ["SJ", "init"]
+- !private ["Sl", "String"]
+- !private ["Sl", "UnsafeMutablePointer"]
+- !private ["Sl", "append"]
+- !private ["Sl", "fromCString"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "memcpy"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "unicodeScalars"]
+- !private ["Sl", "value"]
+- !private ["Sl", "withCString"]
+- !private ["SL", "String"]
+- !private ["SL", "UnsafeMutablePointer"]
+- !private ["SL", "allocate"]
+- !private ["SL", "deallocate"]
+- !private ["SL", "fromCString"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "memcpy"]
+- !private ["SL", "pointee"]
+- !private ["SL", "subscript"]
+- !private ["SL", "unicodeScalars"]
+- !private ["SL", "value"]
+- !private ["SL", "withCString"]
+- !private ["s28CustomDebugStringConvertibleP", "Empty"]
+- !private ["s28CustomDebugStringConvertibleP", "InvertedSection"]
+- !private ["s28CustomDebugStringConvertibleP", "Partial"]
+- !private ["s28CustomDebugStringConvertibleP", "Section"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "Tag"]
+- !private ["s28CustomDebugStringConvertibleP", "Text"]
+- !private ["s28CustomDebugStringConvertibleP", "UnescapedTag"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "fromCString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "memcpy"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unicodeScalars"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "withCString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "String"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UnsafeMutablePointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "fromCString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s29CustomPlaygroundQuickLookableP", "memcpy"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "startIndex"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "unicodeScalars"]
+- !private ["s29CustomPlaygroundQuickLookableP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withCString"]
+- !private ["s17CustomReflectableP", "Empty"]
+- !private ["s17CustomReflectableP", "InvertedSection"]
+- !private ["s17CustomReflectableP", "Partial"]
+- !private ["s17CustomReflectableP", "Section"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "Tag"]
+- !private ["s17CustomReflectableP", "Text"]
+- !private ["s17CustomReflectableP", "UnescapedTag"]
+- !private ["s17CustomReflectableP", "UnsafeMutablePointer"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "fromCString"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "memcpy"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "unicodeScalars"]
+- !private ["s17CustomReflectableP", "value"]
+- !private ["s17CustomReflectableP", "withCString"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "fromCString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "memcpy"]
+- !private ["s23CustomStringConvertibleP", "pointee"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unicodeScalars"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "withCString"]
+- !private ["Se", "Empty"]
+- !private ["Se", "InvertedSection"]
+- !private ["Se", "Partial"]
+- !private ["Se", "Section"]
+- !private ["Se", "String"]
+- !private ["Se", "Tag"]
+- !private ["Se", "Text"]
+- !private ["Se", "UnescapedTag"]
+- !private ["Se", "UnsafeMutablePointer"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "fromCString"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "memcpy"]
+- !private ["Se", "pointee"]
+- !private ["Se", "unicodeScalars"]
+- !private ["Se", "withCString"]
+- !private ["SE", "Empty"]
+- !private ["SE", "InvertedSection"]
+- !private ["SE", "Partial"]
+- !private ["SE", "Section"]
+- !private ["SE", "String"]
+- !private ["SE", "Tag"]
+- !private ["SE", "Text"]
+- !private ["SE", "UnescapedTag"]
+- !private ["SE", "UnsafeMutablePointer"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "fromCString"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "memcpy"]
+- !private ["SE", "pointee"]
+- !private ["SE", "unicodeScalars"]
+- !private ["SE", "withCString"]
+- !private ["SQ", "Empty"]
+- !private ["SQ", "InvertedSection"]
+- !private ["SQ", "Partial"]
+- !private ["SQ", "Section"]
+- !private ["SQ", "String"]
+- !private ["SQ", "Tag"]
+- !private ["SQ", "Text"]
+- !private ["SQ", "UnescapedTag"]
+- !private ["SQ", "UnsafeMutablePointer"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "append"]
+- !private ["SQ", "deallocate"]
+- !private ["SQ", "fromCString"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "memcpy"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unicodeScalars"]
+- !private ["SQ", "value"]
+- !private ["SQ", "withCString"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnsafeMutablePointer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fromCString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "memcpy"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "unicodeScalars"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pointee"]
+- !private ["s23ExpressibleByNilLiteralP", "Empty"]
+- !private ["s23ExpressibleByNilLiteralP", "InvertedSection"]
+- !private ["s23ExpressibleByNilLiteralP", "Partial"]
+- !private ["s23ExpressibleByNilLiteralP", "Section"]
+- !private ["s23ExpressibleByNilLiteralP", "Tag"]
+- !private ["s23ExpressibleByNilLiteralP", "Text"]
+- !private ["s23ExpressibleByNilLiteralP", "UnescapedTag"]
+- !private ["s26ExpressibleByStringLiteralP", "String"]
+- !private ["s26ExpressibleByStringLiteralP", "UnsafeMutablePointer"]
+- !private ["s26ExpressibleByStringLiteralP", "fromCString"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "memcpy"]
+- !private ["s26ExpressibleByStringLiteralP", "unicodeScalars"]
+- !private ["s26ExpressibleByStringLiteralP", "withCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UnsafeMutablePointer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fromCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "memcpy"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "unicodeScalars"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "value"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withCString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "pointee"]
+- !private ["SH", "Empty"]
+- !private ["SH", "InvertedSection"]
+- !private ["SH", "Partial"]
+- !private ["SH", "Section"]
+- !private ["SH", "String"]
+- !private ["SH", "Tag"]
+- !private ["SH", "Text"]
+- !private ["SH", "UnescapedTag"]
+- !private ["SH", "UnsafeMutablePointer"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "allocate"]
+- !private ["SH", "append"]
+- !private ["SH", "deallocate"]
+- !private ["SH", "fromCString"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "memcpy"]
+- !private ["SH", "pointee"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unicodeScalars"]
+- !private ["SH", "value"]
+- !private ["SH", "withCString"]
+- !private ["Si", "pointee"]
+- !private ["s4Int8V", "init"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "fromCString"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "memcpy"]
+- !private ["s25LosslessStringConvertibleP", "pointee"]
+- !private ["s25LosslessStringConvertibleP", "unicodeScalars"]
+- !private ["s25LosslessStringConvertibleP", "value"]
+- !private ["s25LosslessStringConvertibleP", "withCString"]
+- !private ["s10MirrorPathP", "String"]
+- !private ["s10MirrorPathP", "UnsafeMutablePointer"]
+- !private ["s10MirrorPathP", "fromCString"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "memcpy"]
+- !private ["s10MirrorPathP", "pointee"]
+- !private ["s10MirrorPathP", "unicodeScalars"]
+- !private ["s10MirrorPathP", "withCString"]
+- ["8mustache12MustacheNodeO", "Empty"]
+- !private ["8mustache12MustacheNodeO", "Global"]
+- !private ["8mustache12MustacheNodeO", "InvertedSection"]
+- !private ["8mustache12MustacheNodeO", "Partial"]
+- !private ["8mustache12MustacheNodeO", "Section"]
+- !private ["8mustache12MustacheNodeO", "Tag"]
+- !private ["8mustache12MustacheNodeO", "Text"]
+- !private ["8mustache12MustacheNodeO", "UnescapedTag"]
+- ["8mustache14MustacheParserC", "CChar"]
+- ["8mustache14MustacheParserC", "Character"]
+- ["8mustache14MustacheParserC", "MustacheNode"]
+- ["8mustache14MustacheParserC", "MustacheToken"]
+- !private ["8mustache14MustacheParserC", "Optional"]
+- ["8mustache14MustacheParserC", "String"]
+- !private ["8mustache14MustacheParserC", "UInt32"]
+- !private ["8mustache14MustacheParserC", "UnicodeScalar"]
+- ["8mustache14MustacheParserC", "UnsafePointer"]
+- !private ["8mustache14MustacheParserC", "assert"]
+- ["8mustache14MustacheParserC", "cEnd"]
+- ["8mustache14MustacheParserC", "cStart"]
+- ["8mustache14MustacheParserC", "closeCharacter"]
+- ["8mustache14MustacheParserC", "init"]
+- ["8mustache14MustacheParserC", "isStart"]
+- ["8mustache14MustacheParserC", "la0"]
+- ["8mustache14MustacheParserC", "la1"]
+- ["8mustache14MustacheParserC", "la2"]
+- ["8mustache14MustacheParserC", "openCharacter"]
+- ["8mustache14MustacheParserC", "p"]
+- ["8mustache14MustacheParserC", "pStart"]
+- ["8mustache14MustacheParserC", "parse"]
+- ["8mustache14MustacheParserC", "parseNode"]
+- ["8mustache14MustacheParserC", "parseNodes"]
+- ["8mustache14MustacheParserC", "parseTag"]
+- ["8mustache14MustacheParserC", "parseTagOrText"]
+- ["8mustache14MustacheParserC", "parseText"]
+- !private ["8mustache14MustacheParserC", "print"]
+- ["8mustache14MustacheParserC", "root"]
+- ["8mustache14MustacheParserC", "sEnd"]
+- ["8mustache14MustacheParserC", "sStart"]
+- ["8mustache14MustacheParserC", "start"]
+- ["8mustache14MustacheParserC", "ueStart"]
+- ["8mustache14MustacheParserC0B5TokenO", "InvertedSectionStart"]
+- ["8mustache14MustacheParserC0B5TokenO", "Partial"]
+- ["8mustache14MustacheParserC0B5TokenO", "SectionEnd"]
+- ["8mustache14MustacheParserC0B5TokenO", "SectionStart"]
+- ["8mustache14MustacheParserC0B5TokenO", "String"]
+- ["8mustache14MustacheParserC0B5TokenO", "Tag"]
+- ["8mustache14MustacheParserC0B5TokenO", "Text"]
+- ["8mustache14MustacheParserC0B5TokenO", "UnescapedTag"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "unicodeScalars"]
+- !private ["So8NSCodingP", "withCString"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "unicodeScalars"]
+- !private ["So9NSCopyingP", "withCString"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "unicodeScalars"]
+- !private ["So21NSItemProviderReadingP", "withCString"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "unicodeScalars"]
+- !private ["So21NSItemProviderWritingP", "withCString"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "unicodeScalars"]
+- !private ["So16NSMutableCopyingP", "withCString"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "unicodeScalars"]
+- !private ["So8NSObjectC", "withCString"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "unicodeScalars"]
+- !private ["So8NSObjectP", "withCString"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "unicodeScalars"]
+- !private ["So14NSSecureCodingP", "withCString"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "unicodeScalars"]
+- !private ["So8NSStringC", "withCString"]
+- !private ["Sj", "init"]
+- !private ["Sj", "pointee"]
+- !private ["Sq", "Empty"]
+- !private ["Sq", "InvertedSection"]
+- !private ["Sq", "Partial"]
+- !private ["Sq", "Section"]
+- !private ["Sq", "Tag"]
+- !private ["Sq", "Text"]
+- !private ["Sq", "UnescapedTag"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "String"]
+- !private ["Sm", "UnsafeMutablePointer"]
+- !private ["Sm", "append"]
+- !private ["Sm", "fromCString"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "memcpy"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "unicodeScalars"]
+- !private ["Sm", "value"]
+- !private ["Sm", "withCString"]
+- !private ["s7UnicodeO6ScalarV", "init"]
+- !private ["s7UnicodeO6ScalarV", "value"]
+- !private ["ST", "String"]
+- !private ["ST", "UnsafeMutablePointer"]
+- !private ["ST", "append"]
+- !private ["ST", "fromCString"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "memcpy"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["ST", "unicodeScalars"]
+- !private ["ST", "value"]
+- !private ["ST", "withCString"]
+- !private ["SZ", "init"]
+- !private ["SZ", "pointee"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "pointee"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "deallocate"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "subscript"]
+- ["SS", "CChar"]
+- ["SS", "Int"]
+- ["SS", "String"]
+- !private ["SS", "UnsafeMutablePointer"]
+- ["SS", "UnsafePointer"]
+- ["SS", "fromCString"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "memcpy"]
+- !private ["SS", "unicodeScalars"]
+- !private ["SS", "withCString"]
+- !private ["Sy", "String"]
+- !private ["Sy", "UnsafeMutablePointer"]
+- !private ["Sy", "fromCString"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "memcpy"]
+- !private ["Sy", "unicodeScalars"]
+- !private ["Sy", "withCString"]
+- !private ["s16TextOutputStreamP", "String"]
+- !private ["s16TextOutputStreamP", "UnsafeMutablePointer"]
+- !private ["s16TextOutputStreamP", "fromCString"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "memcpy"]
+- !private ["s16TextOutputStreamP", "unicodeScalars"]
+- !private ["s16TextOutputStreamP", "withCString"]
+- !private ["s20TextOutputStreamableP", "String"]
+- !private ["s20TextOutputStreamableP", "UnsafeMutablePointer"]
+- !private ["s20TextOutputStreamableP", "fromCString"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "memcpy"]
+- !private ["s20TextOutputStreamableP", "unicodeScalars"]
+- !private ["s20TextOutputStreamableP", "value"]
+- !private ["s20TextOutputStreamableP", "withCString"]
+- !private ["s6UInt32V", "init"]
+- !private ["SS17UnicodeScalarViewV", "startIndex"]
+- !private ["SS17UnicodeScalarViewV", "subscript"]
+- !private ["Ss17UnicodeScalarViewV", "value"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "subscript"]
+- !private ["SP", "pointee"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "pointee"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "String"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "UnsafeMutablePointer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "fromCString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "memcpy"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "unicodeScalars"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pointee"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "String"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "UnsafeMutablePointer"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "fromCString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "memcpy"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "unicodeScalars"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withCString"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "String"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "UnsafeMutablePointer"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "fromCString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "memcpy"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "unicodeScalars"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "withCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "String"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "UnsafeMutablePointer"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "fromCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "memcpy"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "unicodeScalars"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "value"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withCString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "String"]
+- !private ["s33_ExpressibleByStringInterpolationP", "UnsafeMutablePointer"]
+- !private ["s33_ExpressibleByStringInterpolationP", "fromCString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s33_ExpressibleByStringInterpolationP", "memcpy"]
+- !private ["s33_ExpressibleByStringInterpolationP", "unicodeScalars"]
+- !private ["s33_ExpressibleByStringInterpolationP", "withCString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "pointee"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "unicodeScalars"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withCString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unicodeScalars"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withCString"]
+- !private ["s21_ObjectiveCBridgeableP", "Empty"]
+- !private ["s21_ObjectiveCBridgeableP", "InvertedSection"]
+- !private ["s21_ObjectiveCBridgeableP", "Partial"]
+- !private ["s21_ObjectiveCBridgeableP", "Section"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "Tag"]
+- !private ["s21_ObjectiveCBridgeableP", "Text"]
+- !private ["s21_ObjectiveCBridgeableP", "UnescapedTag"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeMutablePointer"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "fromCString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "memcpy"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- !private ["s21_ObjectiveCBridgeableP", "unicodeScalars"]
+- !private ["s21_ObjectiveCBridgeableP", "withCString"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s16_SwiftStringViewP", "String"]
+- !private ["s16_SwiftStringViewP", "UnsafeMutablePointer"]
+- !private ["s16_SwiftStringViewP", "fromCString"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "memcpy"]
+- !private ["s16_SwiftStringViewP", "startIndex"]
+- !private ["s16_SwiftStringViewP", "subscript"]
+- !private ["s16_SwiftStringViewP", "unicodeScalars"]
+- !private ["s16_SwiftStringViewP", "withCString"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "SJ"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s4Int8V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "8mustache12MustacheNodeO"
+- "8mustache14MustacheParserC"
+- "8mustache14MustacheParserC0B5TokenO"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "s7UnicodeO6ScalarV"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SS17UnicodeScalarViewV"
+- !private "Ss17UnicodeScalarViewV"
+- !private "Sp"
+- !private "SP"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/checkouts/swift-nio-zlib-support.git--7964553127913951599/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/private/tmp/swift-xcode-nio-20181223-32761-r17ye5/SwiftNIO_XcodeImage-0.9.4/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ad43a7801bd311acc9cd43131a30c433"

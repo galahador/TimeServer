@@ -1,0 +1,97 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MicroExpress",
+        "repositoryURL": "https://github.com/NozeIO/MicroExpress.git",
+        "state": {
+          "branch": null,
+          "revision": "dfcdcd84a98d2583d16d3dc671d36a125b388f48",
+          "version": "0.4.5"
+        }
+      },
+      {
+        "package": "mustache",
+        "repositoryURL": "https://github.com/AlwaysRightInstitute/mustache.git",
+        "state": {
+          "branch": null,
+          "revision": "a9f19b357164afe54f95d314580658008a36641f",
+          "version": "0.5.6"
+        }
+      },
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "a20e129c22ad00a51c902dca54a5456f90664780",
+          "version": "1.12.0"
+        }
+      },
+      {
+        "package": "swift-nio-irc",
+        "repositoryURL": "https://github.com/SwiftNIOExtras/swift-nio-irc.git",
+        "state": {
+          "branch": null,
+          "revision": "5af51283fac1874c7d8b6f9b8d45528f71543ff6",
+          "version": "0.6.2"
+        }
+      },
+      {
+        "package": "swift-nio-irc-client",
+        "repositoryURL": "https://github.com/NozeIO/swift-nio-irc-client.git",
+        "state": {
+          "branch": null,
+          "revision": "6ef314ce32060150c9b170c81a5dfb2806d5d58c",
+          "version": "0.6.1"
+        }
+      },
+      {
+        "package": "swift-nio-redis",
+        "repositoryURL": "https://github.com/SwiftNIOExtras/swift-nio-redis.git",
+        "state": {
+          "branch": null,
+          "revision": "33b3f08053c07225fa01b5570d90713c9402bee8",
+          "version": "0.9.0"
+        }
+      },
+      {
+        "package": "swift-nio-redis-client",
+        "repositoryURL": "https://github.com/NozeIO/swift-nio-redis-client.git",
+        "state": {
+          "branch": null,
+          "revision": "f4bd0ea24e9209f47dc9a02e126c197a7bdc5f7d",
+          "version": "0.9.0"
+        }
+      },
+      {
+        "package": "swift-nio-ssl",
+        "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
+        "state": {
+          "branch": null,
+          "revision": "db16c3a90b101bb53b26a58867a344ad428072e0",
+          "version": "1.3.2"
+        }
+      },
+      {
+        "package": "swift-nio-ssl-support",
+        "repositoryURL": "https://github.com/apple/swift-nio-ssl-support.git",
+        "state": {
+          "branch": null,
+          "revision": "c02eec4e0e6d351cd092938cf44195a8e669f555",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "swift-nio-zlib-support",
+        "repositoryURL": "https://github.com/apple/swift-nio-zlib-support.git",
+        "state": {
+          "branch": null,
+          "revision": "37760e9a52030bb9011972c5213c3350fa9d41fd",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

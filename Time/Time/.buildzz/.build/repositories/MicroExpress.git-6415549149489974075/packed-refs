@@ -1,0 +1,24 @@
+# pack-refs with: peeled fully-peeled sorted 
+ec20c2005211ef5abddae7f9910c535f1a872b02 refs/heads/branches/swift-nio
+425f9f833f9a4169d34361171a871fc39af6f040 refs/heads/branches/swift-nio-lib
+3b908b227863284220e419a6eb273e68b692efaa refs/heads/master
+ec4e01b69dc0e0668ef6b9de5d589d7c9a1b91c3 refs/heads/nio-tutorial/1-hello-world
+2887651311b886907e30e6f9b139458eb3d334e4 refs/heads/nio-tutorial/2-reqres
+9e42a01e3cb280afdc713db9b0812bf15bc35827 refs/heads/nio-tutorial/3-middleware
+1507946721a5b1f9b5e2b9752c364426e3518a2f refs/heads/nio-tutorial/4-reusable-middleware
+2302f9d5bd8223a3558cc3c0e306b57197aa589a refs/heads/nio-tutorial/5-json
+ae22a0c9e6b83d5f0ae324812902f822831d9157 refs/heads/nio-tutorial/6-templates
+082e815beff221552520533946b0b8ff31c572c1 refs/heads/nio/master
+a9d9528374fefbab39247b8f864c1ef48296f518 refs/heads/temp/ios-nio
+25ae4b40aaa84921c90fb072b8a505252b160022 refs/tags/0.2.0
+44269b456a999d96e77924ac2a81c596d1376ea3 refs/tags/0.2.1
+9f911bb29db53f85833d287d5e9b80e967f3cdda refs/tags/0.2.2
+cd68b18be8ac8aa25af4009435007568d4500b32 refs/tags/0.2.3
+03878af5429a9815b789906ff14d49fc7b5f25e2 refs/tags/0.3.0
+1200b85d7feccdce1924036e9893a5dc404308ba refs/tags/0.3.1
+91533408f329f25ef4c2189dc63443994c9f1757 refs/tags/0.3.2
+57f00b721f532984d39a9684648d5de141344381 refs/tags/0.3.3
+4d60d740c3abf90ce77cee7c0b766fd310a9c5ac refs/tags/0.4.1
+880447dff922c86a413799024c19e9d0d095801f refs/tags/0.4.3
+1c4fb7736c96d488a3e28b4a103f5ed0899b5c8e refs/tags/0.4.4
+dfcdcd84a98d2583d16d3dc671d36a125b388f48 refs/tags/0.4.5
